@@ -1,4 +1,4 @@
-# 🧠 AskDB – AI-Powered Text-to-SQL Assistant  
+# AskDB – AI-Powered Text-to-SQL Assistant  
 *“Talk to your database like you talk to people.”* 💬📊  
 
 AskDB is an **AI-powered text-to-SQL assistant** that lets users interact with databases using plain English. Built with 🧠 **LLMs (Gemini / OpenAI), 🖥️ Flask, and 🎨 TailwindCSS**, it automatically converts natural language into SQL queries, executes them, and returns insights with **beautiful analytics and visualizations**.
