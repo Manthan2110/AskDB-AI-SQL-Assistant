@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskDB - Text-to-SQL AI Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'chat-primary': '#3b82f6',
+                        'chat-secondary': '#f1f5f9',
+                        'dark-bg': '#1e293b',
+                        'dark-card': '#334155'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-track {
+            background: #334155;
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #64748b;
+        }
+        
+        /* Smooth animations */
+        .message-enter {
+            animation: slideUp 0.3s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Typing indicator */
+        .typing-indicator {
+            display: inline-block;
+        }
+        
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #9ca3af;
+            margin: 0 2px;
+            animation: typing 1.4s infinite ease-in-out;
+        }
+        
+        .typing-indicator span:nth-child(1) { animation-delay: 0s; }
+        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+        
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+        
+        /* SQL code block styling */
+        .sql-block {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .dark .sql-block {
+            background: #1e293b;
+            border-color: #475569;
+        }
+        
+        /* Table styling */
+        .results-table {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-dark-bg transition-colors duration-200">
+    <!-- Main Container -->
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <div id="sidebar" class="w-80 bg-white dark:bg-dark-card shadow-lg border-r border-gray-200 dark:border-gray-600 flex flex-col transition-all duration-300">
+            <!-- Sidebar Header -->
+            <div class="p-4 border-b border-gray-200 dark:border-gray-600">
+                <div class="flex items-center justify-between w-full">
+                    <!-- Logo + Text in One Line -->
+                    <div class="flex items-center space-x-3">
+                        <img
+                            src="{{ url_for('static', filename='images/AskDB-removebg.png') }}"
+                            alt="AskDB Logo"
+                            class="h-12 w-12 rounded-xl shadow-md ring-1 ring-blue-400/40"
+                        />
+                        <h1
+                            class="text-2xl font-semibold tracking-wide text-blue-700 dark:text-blue-300"
+                        >
+                            AskDB
+                        </h1>
+                    </div>
+
+                    <!-- Theme Toggle Button -->
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                        <i class="fas fa-moon dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:block"></i>
+                    </button>
+                </div>
+
+                <!-- Database Status -->
+                <div class="mt-3 flex items-center">
+                    <div id="connection-status" class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+                    <span class="text-sm text-gray-600 dark:text-gray-300" id="db-name">texttosql</span>
+                </div>
+            </div>
+            
+            <!-- Schema Section -->
+            <div class="flex-1 overflow-y-auto custom-scrollbar">
+                <div class="p-4">
+                    <!-- Schema Toggle -->
+                    <button id="schema-toggle" class="w-full flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                        <span class="font-medium text-gray-700 dark:text-white">
+                            <i class="fas fa-database mr-2"></i>Database Schema
+                        </span>
+                        <i class="fas fa-chevron-down transition-transform" id="schema-icon"></i>
+                    </button>
+                    
+                    <!-- Schema Content -->
+                    <div id="schema-content" class="mt-2 space-y-2">
+                        <!-- Tables will be loaded here -->
+                    </div>
+                </div>
+                
+                <!-- Query History Section -->
+                <div class="p-4 border-t border-gray-200 dark:border-gray-600">
+                    <button id="history-toggle" class="w-full flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                        <span class="font-medium text-gray-700 dark:text-white">
+                            <i class="fas fa-history mr-2"></i>Recent Queries
+                        </span>
+                        <i class="fas fa-chevron-down transition-transform" id="history-icon"></i>
+                    </button>
+                    
+                    <!-- History Content -->
+                    <div id="history-content" class="mt-2 space-y-2 hidden">
+                        <!-- History items will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Chat Area -->
+        <div class="flex-1 flex flex-col">
+            <!-- Chat Header -->
+            <div class="bg-white dark:bg-dark-card shadow-sm border-b border-gray-200 dark:border-gray-600 p-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <button id="sidebar-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors mr-3 md:hidden">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <h2 class="text-xl font-semibold text-gray-800 dark:text-white">Chat with your Database</h2>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button id="clear-chat" class="px-4 py-2 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                            <i class="fas fa-trash mr-1"></i>Clear
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Messages Container -->
+            <div id="messages-container" class="flex-1 overflow-y-auto custom-scrollbar p-4 space-y-4">
+                <!-- Welcome Message -->
+                <div class="message-enter">
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-8 h-8 bg-chat-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-robot text-white text-sm"></i>
+                        </div>
+                        <div class="flex-1 bg-white dark:bg-dark-card rounded-lg shadow-sm p-4 max-w-3xl">
+                            <p class="text-gray-700 dark:text-gray-300">
+                                👋 Hello! I'm your Text-to-SQL AI Assistant. Ask me anything about your database and I'll help you generate SQL queries, execute them, and explain the results in plain English.
+                            </p>
+                            <div class="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                                <p class="text-sm text-blue-700 dark:text-blue-300">
+                                    <strong>Try asking:</strong> "What is the total budget for all products?" or "List all customers from the customers table"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Input Area -->
+            <div class="bg-white dark:bg-dark-card border-t border-gray-200 dark:border-gray-600 p-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="flex items-end space-x-3">
+                        <!-- Text Input -->
+                        <div class="flex-1 relative">
+                            <textarea
+                                id="message-input"
+                                placeholder="Ask me anything about your database..."
+                                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-xl bg-white dark:bg-dark-bg text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-chat-primary focus:border-transparent resize-none max-h-32"
+                                rows="1"
+                            ></textarea>
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="flex space-x-2">
+                            <button id="mic-btn" class="p-3 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" disabled>
+                                <i class="fas fa-microphone"></i>
+                            </button>
+                            <button id="send-btn" class="p-3 bg-chat-primary text-white rounded-xl hover:bg-blue-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Actions -->
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="Show me all tables in the database">
+                            📊 Show tables
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="What is the total budget across all products?">
+                            💰 Total budget
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="List all customer names">
+                            👥 All customers
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="Show me recent orders with customer names">
+                            🛍️ Recent orders
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="What are all the regions in the database?">
+                            🌎 All regions
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="Show me total orders by customer">
+                            📈 Orders by customer
+                        </button>
+                        <button class="quick-query px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" data-query="What are the total sales by region?">
+                            🗺️ Sales by region
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Modal -->
+    <div id="loading-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white dark:bg-dark-card rounded-lg p-6 max-w-sm w-full mx-4">
+            <div class="flex items-center space-x-3">
+                <div class="typing-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="text-gray-700 dark:text-gray-300">Processing your query...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // ====================================
+        // Global Variables & Configuration
+        // ====================================
+        let isLoading = false;
+        let messageHistory = [];
+        let currentTheme = localStorage.getItem('theme') || 'light';
+        
+        // API Base URL
+        const API_BASE = '/api';
+        
+        // DOM Elements
+        const messagesContainer = document.getElementById('messages-container');
+        const messageInput = document.getElementById('message-input');
+        const sendBtn = document.getElementById('send-btn');
+        const loadingModal = document.getElementById('loading-modal');
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebar-toggle');
+        const themeToggle = document.getElementById('theme-toggle');
+        const schemaToggle = document.getElementById('schema-toggle');
+        const schemaContent = document.getElementById('schema-content');
+        const historyToggle = document.getElementById('history-toggle');
+        const historyContent = document.getElementById('history-content');
+        const clearChatBtn = document.getElementById('clear-chat');
+        
+        // ====================================
+        // Initialization
+        // ====================================
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeApp();
+        });
+        
+        function initializeApp() {
+            // Apply theme
+            applyTheme(currentTheme);
+            
+            // Load database schema
+            loadDatabaseSchema();
+            
+            // Load query history
+            loadQueryHistory();
+            
+            // Setup event listeners
+            setupEventListeners();
+            
+            // Auto-resize textarea
+            autoResizeTextarea();
+        }
+        
+        // ====================================
+        // Event Listeners Setup
+        // ====================================
+        function setupEventListeners() {
+            // Send message
+            sendBtn.addEventListener('click', sendMessage);
+            messageInput.addEventListener('keydown', handleInputKeydown);
+            
+            // Theme toggle
+            themeToggle.addEventListener('click', toggleTheme);
+            
+            // Sidebar toggle
+            sidebarToggle.addEventListener('click', toggleSidebar);
+            
+            // Schema toggle
+            schemaToggle.addEventListener('click', toggleSchema);
+            
+            // History toggle
+            historyToggle.addEventListener('click', toggleHistory);
+            
+            // Clear chat
+            clearChatBtn.addEventListener('click', clearChat);
+            
+            // Quick queries
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('quick-query')) {
+                    const query = e.target.dataset.query;
+                    messageInput.value = query;
+                    sendMessage();
+                }
+            });
+        }
+        
+        // ====================================
+        // Core Chat Functionality
+        // ====================================
+        function handleInputKeydown(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        }
+        
+        async function sendMessage() {
+            const message = messageInput.value.trim();
+            if (!message || isLoading) return;
+            
+            // Clear input
+            messageInput.value = '';
+            resizeTextarea();
+            
+            // Add user message to chat
+            addMessageToChat('user', message);
+            
+            // Show loading
+            setLoading(true);
+            addTypingIndicator();
+            
+            try {
+                // Send request to backend
+                const response = await fetch(`${API_BASE}/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: message })
+                });
+                
+                const data = await response.json();
+                
+                // Remove typing indicator
+                removeTypingIndicator();
+                
+                if (data.success) {
+                    // Add bot response to chat
+                    addBotResponse(data, message);
+                    
+                    // Update history
+                    loadQueryHistory();
+                } else {
+                    // Show error
+                    addMessageToChat('bot', `❌ Error: ${data.error}`, true);
+                }
+                
+            } catch (error) {
+                removeTypingIndicator();
+                addMessageToChat('bot', '❌ Network error. Please try again.', true);
+                console.error('Error:', error);
+            } finally {
+                setLoading(false);
+            }
+        }
+        
+        function addMessageToChat(sender, content, isError = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message-enter';
+            
+            const isUser = sender === 'user';
+            const alignClass = isUser ? 'justify-end' : 'justify-start';
+            
+            messageDiv.innerHTML = `
+                <div class="flex ${alignClass} items-start space-x-3">
+                    ${!isUser ? `
+                        <div class="flex-shrink-0 w-8 h-8 ${isError ? 'bg-red-500' : 'bg-chat-primary'} rounded-full flex items-center justify-center">
+                            <i class="fas ${isError ? 'fa-exclamation-triangle' : 'fa-robot'} text-white text-sm"></i>
+                        </div>
+                    ` : ''}
+                    <div class="flex-1 ${isUser ? 'max-w-lg' : 'max-w-3xl'}">
+                        <div class="${isUser ? 'bg-chat-primary text-white ml-auto' : `bg-white dark:bg-dark-card ${isError ? 'border-l-4 border-red-500' : ''}`} rounded-lg shadow-sm p-4">
+                            <p class="${isUser ? 'text-white' : 'text-gray-700 dark:text-gray-300'}">${content}</p>
+                        </div>
+                    </div>
+                    ${isUser ? `
+                        <div class="flex-shrink-0 w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white text-sm"></i>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+        
+        function addBotResponse(data, originalQuestion) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message-enter';
+            
+            const sqlCollapsibleId = `sql-${Date.now()}`;
+            
+            messageDiv.innerHTML = `
+                <div class="flex justify-start items-start space-x-3">
+                    <div class="flex-shrink-0 w-8 h-8 bg-chat-primary rounded-full flex items-center justify-center">
+                        <i class="fas fa-robot text-white text-sm"></i>
+                    </div>
+                    <div class="flex-1 max-w-3xl">
+                        <div class="bg-white dark:bg-dark-card rounded-lg shadow-sm p-4">
+                            <!-- SQL Query Section -->
+                            <div class="mb-4">
+                                <button onclick="toggleSqlQuery('${sqlCollapsibleId}')" class="flex items-center justify-between w-full p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                                    <span class="font-medium text-gray-700 dark:text-white">
+                                        <i class="fas fa-code mr-2"></i>Generated SQL Query
+                                    </span>
+                                    <i class="fas fa-chevron-down transition-transform" id="${sqlCollapsibleId}-icon"></i>
+                                </button>
+                                <div id="${sqlCollapsibleId}" class="hidden mt-2">
+                                    <div class="sql-block rounded-lg p-4">
+                                        <code class="text-sm text-gray-800 dark:text-gray-200 font-mono">${escapeHtml(data.sql_query)}</code>
+                                    </div>
+                                    <div class="mt-2 flex justify-end">
+                                        <button onclick="copyToClipboard('${escapeHtml(data.sql_query)}')" class="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-300 dark:hover:bg-gray-500 transition-colors">
+                                            <i class="fas fa-copy mr-1"></i>Copy
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Results Section -->
+                            ${data.results && data.results.length > 0 ? `
+                                <div class="mb-4">
+                                    <h4 class="font-medium text-gray-700 dark:text-white mb-2">
+                                        <i class="fas fa-table mr-2"></i>Results (${data.results_count} ${data.results_count === 1 ? 'row' : 'rows'})
+                                    </h4>
+                                    ${renderResultsTable(data.results)}
+                                </div>
+                            ` : `
+                                <div class="mb-4">
+                                    <p class="text-gray-600 dark:text-gray-400 italic">No results returned</p>
+                                </div>
+                            `}
+                            
+                            <!-- Summary Section -->
+                            <div class="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                                <h4 class="font-medium text-blue-800 dark:text-blue-300 mb-2">
+                                    <i class="fas fa-lightbulb mr-2"></i>Summary
+                                </h4>
+                                <p class="text-blue-700 dark:text-blue-300 text-sm">${escapeHtml(data.summary)}</p>
+                            </div>
+                            
+                            <!-- Timestamp -->
+                            <div class="mt-3 text-xs text-gray-500 dark:text-gray-400 text-right">
+                                ${data.timestamp}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+        
+        function renderResultsTable(results) {
+            if (!results || results.length === 0) return '<p class="text-gray-500">No data</p>';
+            
+            // Handle different result formats
+            if (typeof results[0] === 'string') {
+                return `<div class="bg-gray-50 dark:bg-gray-800 p-3 rounded text-sm font-mono">${escapeHtml(results[0])}</div>`;
+            }
+            
+            if (typeof results[0] === 'object' && results[0].result) {
+                return `<div class="bg-gray-50 dark:bg-gray-800 p-3 rounded text-sm font-mono">${escapeHtml(results[0].result)}</div>`;
+            }
+            
+            // If it's structured data, create a table
+            const keys = Object.keys(results[0]);
+            if (keys.length === 0) return '<p class="text-gray-500">No data</p>';
+            
+            let tableHtml = `
+                <div class="results-table border rounded-lg">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50 dark:bg-gray-700">
+                            <tr>
+                                ${keys.map(key => `<th class="px-4 py-2 text-left font-medium text-gray-700 dark:text-gray-300">${escapeHtml(key)}</th>`).join('')}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${results.slice(0, 10).map((row, index) => `
+                                <tr class="${index % 2 === 0 ? 'bg-white dark:bg-dark-card' : 'bg-gray-50 dark:bg-gray-800'}">
+                                    ${keys.map(key => `<td class="px-4 py-2 text-gray-700 dark:text-gray-300">${escapeHtml(String(row[key] || ''))}</td>`).join('')}
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+            
+            if (results.length > 10) {
+                tableHtml += `<p class="text-xs text-gray-500 mt-2">Showing first 10 of ${results.length} results</p>`;
+            }
+            
+            return tableHtml;
+        }
+        
+        function addTypingIndicator() {
+            const typingDiv = document.createElement('div');
+            typingDiv.id = 'typing-indicator';
+            typingDiv.className = 'message-enter';
+            
+            typingDiv.innerHTML = `
+                <div class="flex justify-start items-start space-x-3">
+                    <div class="flex-shrink-0 w-8 h-8 bg-gray-400 rounded-full flex items-center justify-center">
+                        <i class="fas fa-robot text-white text-sm"></i>
+                    </div>
+                    <div class="bg-white dark:bg-dark-card rounded-lg shadow-sm p-4">
+                        <div class="typing-indicator">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(typingDiv);
+            scrollToBottom();
+        }
+        
+        function removeTypingIndicator() {
+            const typingIndicator = document.getElementById('typing-indicator');
+            if (typingIndicator) {
+                typingIndicator.remove();
+            }
+        }
+        
+        // ====================================
+        // Database Schema Functions
+        // ====================================
+        async function loadDatabaseSchema() {
+            try {
+                const response = await fetch(`${API_BASE}/schema`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    renderSchema(data.tables);
+                    
+                    // Update connection status
+                    const statusEl = document.getElementById('connection-status');
+                    const dbNameEl = document.getElementById('db-name');
+                    
+                    statusEl.className = 'w-3 h-3 bg-green-500 rounded-full mr-2';
+                    dbNameEl.textContent = data.database;
+                }
+            } catch (error) {
+                console.error('Error loading schema:', error);
+                
+                // Update connection status to error
+                const statusEl = document.getElementById('connection-status');
+                statusEl.className = 'w-3 h-3 bg-red-500 rounded-full mr-2';
+            }
+        }
+        
+        function renderSchema(tables) {
+            const schemaHtml = tables.map(table => `
+                <div class="border border-gray-200 dark:border-gray-600 rounded-lg p-3">
+                    <h3 class="font-medium text-gray-800 dark:text-white mb-2">
+                        <i class="fas fa-table mr-2"></i>${table.name}
+                    </h3>
+                    <div class="space-y-1">
+                        ${table.columns.map(col => `
+                            <div class="flex justify-between items-center text-xs">
+                                <span class="text-gray-600 dark:text-gray-400">${col.name}</span>
+                                <span class="text-gray-500 dark:text-gray-500 font-mono">${col.type}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+            
+            schemaContent.innerHTML = schemaHtml;
+        }
+        
+        // ====================================
+        // Query History Functions
+        // ====================================
+        async function loadQueryHistory() {
+            try {
+                const response = await fetch(`${API_BASE}/history`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    renderHistory(data.history);
+                }
+            } catch (error) {
+                console.error('Error loading history:', error);
+            }
+        }
+        
+        function renderHistory(history) {
+            if (!history || history.length === 0) {
+                historyContent.innerHTML = '<p class="text-sm text-gray-500 dark:text-gray-400 p-2">No recent queries</p>';
+                return;
+            }
+            
+            const historyHtml = history.map(item => `
+                <div class="border border-gray-200 dark:border-gray-600 rounded-lg p-3 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors cursor-pointer" onclick="reuseQuery('${escapeHtml(item.question)}')">
+                    <p class="text-sm text-gray-800 dark:text-white mb-1">${escapeHtml(item.question.substring(0, 60))}${item.question.length > 60 ? '...' : ''}</p>
+                    <div class="flex justify-between items-center text-xs text-gray-500 dark:text-gray-400">
+                        <span>${item.results_count} results</span>
+                        <span>${new Date(item.timestamp).toLocaleTimeString()}</span>
+                    </div>
+                </div>
+            `).join('');
+            
+            historyContent.innerHTML = historyHtml;
+        }
+        
+        function reuseQuery(question) {
+            messageInput.value = question;
+            messageInput.focus();
+        }
+        
+        // ====================================
+        // UI Helper Functions
+        // ====================================
+        function toggleSqlQuery(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById(`${id}-icon`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        function toggleSchema() {
+            const icon = document.getElementById('schema-icon');
+            
+            if (schemaContent.classList.contains('hidden')) {
+                schemaContent.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                schemaContent.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        function toggleHistory() {
+            const icon = document.getElementById('history-icon');
+            
+            if (historyContent.classList.contains('hidden')) {
+                historyContent.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                historyContent.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        function toggleSidebar() {
+            sidebar.classList.toggle('-translate-x-full');
+        }
+        
+        function toggleTheme() {
+            currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+            applyTheme(currentTheme);
+            localStorage.setItem('theme', currentTheme);
+        }
+        
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+        
+        function clearChat() {
+            const messages = messagesContainer.querySelectorAll('.message-enter');
+            messages.forEach((msg, index) => {
+                if (index > 0) { // Keep the welcome message
+                    msg.remove();
+                }
+            });
+        }
+        
+        function setLoading(loading) {
+            isLoading = loading;
+            sendBtn.disabled = loading;
+            
+            if (loading) {
+                loadingModal.classList.remove('hidden');
+            } else {
+                loadingModal.classList.add('hidden');
+            }
+        }
+        
+        function scrollToBottom() {
+            setTimeout(() => {
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            }, 100);
+        }
+        
+        function autoResizeTextarea() {
+            messageInput.addEventListener('input', resizeTextarea);
+        }
+        
+        function resizeTextarea() {
+            messageInput.style.height = 'auto';
+            const newHeight = Math.min(messageInput.scrollHeight, 120);
+            messageInput.style.height = newHeight + 'px';
+        }
+        
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                // Show toast or feedback
+                console.log('Copied to clipboard');
+            });
+        }
+        
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+        
+        // ====================================
+        // Responsive Design
+        // ====================================
+        function checkScreenSize() {
+            if (window.innerWidth < 768) {
+                sidebar.classList.add('-translate-x-full');
+            } else {
+                sidebar.classList.remove('-translate-x-full');
+            }
+        }
+        
+        window.addEventListener('resize', checkScreenSize);
+        checkScreenSize();
+        
+    </script>
+</body>
+</html>
