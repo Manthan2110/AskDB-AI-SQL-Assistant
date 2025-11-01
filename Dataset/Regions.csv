@@ -1,0 +1,1001 @@
+id,name,country,state_code,state,type,latitude,longitude,area_code,population,household,median_in_land,area_water,time_zone
+1,Frankbury,Ukraine,NE,Nebraska,Town,35.4638,-69.1738,767,195066,67533,95334,0.16,Mountain/Denver
+2,North Dianaville,Cape Verde,KS,Kansas,Town,29.6699,-89.1712,502,273498,120843,54932,4.45,Mountain/Denver
+3,East Jenniferport,United States of America,LA,Louisiana,Village,46.1032,-76.4655,401,170928,84416,79559,0.78,Eastern/New_York
+4,Taylorburgh,New Zealand,CT,Connecticut,CDP,31.1376,-84.1071,473,272741,106965,41685,0.16,Central/Chicago
+5,New Brad,San Marino,MN,Minnesota,Hamlet,37.7477,-120.1705,392,439105,156924,134579,4.88,Pacific/Los_Angeles
+6,New Melissahaven,Croatia,FL,Florida,Village,28.0557,-90.608,667,276680,89564,135481,0.18,Eastern/New_York
+7,Brendaberg,Uzbekistan,KS,Kansas,CDP,27.4119,-109.1021,853,426185,176737,112818,2.45,Pacific/Los_Angeles
+8,South Lisa,Japan,DC,District of Columbia,City,30.0057,-115.3973,726,6773,2910,84677,3.71,Pacific/Los_Angeles
+9,Pearsonport,Tajikistan,VA,Virginia,Hamlet,39.2245,-118.311,833,419992,168042,89894,4.95,Eastern/New_York
+10,Port Darlenestad,Congo,DE,Delaware,City,48.8942,-106.3322,628,457030,189924,119935,4.05,Pacific/Los_Angeles
+11,Loriville,Montenegro,WY,Wyoming,CDP,39.387,-69.2849,248,161740,50910,124944,2.14,Pacific/Los_Angeles
+12,Dianeland,Bangladesh,KY,Kentucky,Village,34.2159,-124.8311,231,498644,243582,62186,0.25,Pacific/Los_Angeles
+13,Davidville,Bouvet Island (Bouvetoya),CT,Connecticut,City,41.3924,-88.7581,228,82982,35673,78116,2.61,Central/Chicago
+14,East Jasminestad,Holy See (Vatican City State),OR,Oregon,Village,42.6438,-106.2406,443,84404,41840,144691,4.91,Central/Chicago
+15,Jamesview,Libyan Arab Jamahiriya,KS,Kansas,City,48.1033,-94.3636,383,321068,159466,56532,1.9,Pacific/Los_Angeles
+16,North Gregory,Malaysia,MD,Maryland,Hamlet,32.8355,-94.0768,528,170674,67840,42589,3.9,Central/Chicago
+17,Stacyburgh,Colombia,TX,Texas,Hamlet,37.2066,-124.5132,933,364181,165430,106521,0.74,Pacific/Los_Angeles
+18,South Timothy,Armenia,MD,Maryland,City,42.7177,-109.4601,921,89532,34210,69158,2.1,Central/Chicago
+19,Bartonland,Fiji,VT,Vermont,CDP,26.8899,-117.0612,511,152731,51646,25725,0.7,Pacific/Los_Angeles
+20,New Timothytown,Tuvalu,DE,Delaware,Town,37.2006,-114.7027,977,177432,71055,138019,3.27,Central/Chicago
+21,Loriview,Samoa,RI,Rhode Island,CDP,31.0273,-72.2924,932,159067,76804,110814,4.52,Pacific/Los_Angeles
+22,New April,Burkina Faso,RI,Rhode Island,Village,33.7425,-123.5446,955,420379,204900,85144,4.07,Mountain/Denver
+23,Port Victoria,Equatorial Guinea,MN,Minnesota,Village,39.4912,-119.1316,516,244761,95470,87072,0.53,Central/Chicago
+24,Angelaville,Tanzania,ID,Idaho,Town,35.5302,-72.7125,880,82628,40484,75654,4.45,Eastern/New_York
+25,Johnport,Monaco,NJ,New Jersey,CDP,31.897,-79.0594,803,156866,58046,22344,3.61,Central/Chicago
+26,Tiffanyhaven,Belize,PA,Pennsylvania,Hamlet,34.6508,-110.9366,419,120333,43212,86758,4.36,Central/Chicago
+27,West Michelle,Egypt,AL,Alabama,CDP,47.9809,-78.0058,609,134605,59896,69275,1.34,Central/Chicago
+28,Harrischester,Angola,MI,Michigan,Village,45.315,-105.6715,432,174317,60753,111109,0.13,Central/Chicago
+29,West Laura,Chad,UT,Utah,Hamlet,48.0041,-69.3218,352,78646,27729,81518,1.3,Mountain/Denver
+30,Port Kevin,Turkmenistan,ID,Idaho,CDP,45.3766,-94.9044,220,142641,43577,39927,3.28,Eastern/New_York
+31,Markshaven,Cote d'Ivoire,NM,New Mexico,Hamlet,41.8553,-94.2778,685,141303,45841,36013,2.41,Eastern/New_York
+32,East Kevinchester,Tajikistan,MI,Michigan,CDP,28.4375,-99.4433,700,235604,110219,52569,0.46,Central/Chicago
+33,North Robertfort,Palau,IL,Illinois,Town,36.706,-97.815,837,269261,118007,43302,1.61,Pacific/Los_Angeles
+34,Hortonstad,Bhutan,AK,Alaska,City,44.9662,-82.4445,290,272763,95737,27751,1.89,Eastern/New_York
+35,East Patty,French Polynesia,AK,Alaska,CDP,44.5605,-85.0316,640,430136,129436,21383,2.95,Central/Chicago
+36,North Matthew,Bosnia and Herzegovina,ID,Idaho,City,27.3974,-112.94,556,405645,192385,47325,0.37,Eastern/New_York
+37,South Edward,Rwanda,KS,Kansas,City,46.4489,-107.3528,915,425368,176602,103238,0.1,Central/Chicago
+38,Wardmouth,Argentina,TN,Tennessee,City,45.3509,-69.8111,776,137225,53159,25975,2.86,Mountain/Denver
+39,Sanchezberg,United Kingdom,OK,Oklahoma,Hamlet,28.2893,-73.2608,445,280671,110599,109014,1.35,Eastern/New_York
+40,South Jeffrey,Micronesia,WY,Wyoming,City,30.8367,-74.0543,917,133459,63820,76637,1.7,Pacific/Los_Angeles
+41,North Mario,Palau,CO,Colorado,Hamlet,30.7326,-78.3342,584,286048,115701,21665,1.46,Mountain/Denver
+42,Kennethbury,Nicaragua,OK,Oklahoma,CDP,43.0837,-114.6162,954,79244,36037,42637,4.6,Eastern/New_York
+43,South William,Hungary,ND,North Dakota,Town,38.4108,-119.9298,677,186720,80596,131115,0.61,Mountain/Denver
+44,Lake Dominic,Malawi,CO,Colorado,Hamlet,38.4907,-101.3219,997,495611,177475,131283,0.65,Central/Chicago
+45,Nancymouth,Liechtenstein,OK,Oklahoma,Town,25.4561,-73.2846,242,213374,74249,77200,2.03,Pacific/Los_Angeles
+46,Thompsonburgh,Bangladesh,PR,Puerto Rico,Village,26.9657,-110.4134,817,472079,152265,39103,2.64,Eastern/New_York
+47,South Brenda,Hong Kong,TX,Texas,CDP,30.5701,-116.8935,218,27448,9528,83360,3.04,Central/Chicago
+48,Jonesville,Myanmar,IL,Illinois,Village,42.9555,-101.402,699,68775,31946,137135,3.46,Central/Chicago
+49,Strongmouth,Ethiopia,DE,Delaware,Hamlet,32.2399,-100.379,571,113388,46004,44893,3.28,Mountain/Denver
+50,Lake Bradley,Singapore,FL,Florida,Town,33.0571,-68.9089,423,18550,8517,102331,0.67,Pacific/Los_Angeles
+51,Kaneborough,Iceland,NC,North Carolina,Hamlet,47.1496,-68.253,781,300404,130950,47395,1.65,Mountain/Denver
+52,South Douglaston,Italy,VA,Virginia,Village,37.1873,-113.3095,883,409069,184924,136171,3.42,Pacific/Los_Angeles
+53,West Josephside,Saint Kitts and Nevis,MS,Mississippi,Hamlet,33.6005,-79.0864,897,208778,93513,91700,1.81,Central/Chicago
+54,Port Ashlee,Martinique,HI,Hawaii,City,45.4163,-79.4999,626,329609,103403,110554,4.52,Pacific/Los_Angeles
+55,North Benjaminchester,Chad,OR,Oregon,Town,33.956,-83.1599,624,420989,152933,28112,0.54,Mountain/Denver
+56,North Karen,South Georgia and the South Sandwich Islands,AK,Alaska,CDP,37.5943,-71.7121,880,219896,74772,133995,3.77,Eastern/New_York
+57,Newmanton,Fiji,NV,Nevada,Village,37.9116,-108.6847,539,279704,123661,87545,0.62,Pacific/Los_Angeles
+58,Ochoamouth,Anguilla,IL,Illinois,CDP,34.9877,-70.9518,770,129499,51555,131982,1.73,Mountain/Denver
+59,New William,Timor-Leste,NV,Nevada,Hamlet,30.8941,-115.6772,455,17154,7712,128995,1.17,Mountain/Denver
+60,West Michelle,Micronesia,MA,Massachusetts,Town,48.9951,-119.2527,888,253650,90314,43392,4.55,Eastern/New_York
+61,West Kristin,French Polynesia,NH,New Hampshire,Village,42.5045,-111.0309,833,326046,125058,86155,3.56,Pacific/Los_Angeles
+62,Donaldberg,Sao Tome and Principe,KY,Kentucky,Village,34.4407,-124.5178,401,447884,162339,85376,3.57,Pacific/Los_Angeles
+63,Martinview,Jordan,KY,Kentucky,Town,34.6421,-75.9392,602,350193,128204,86556,2.03,Mountain/Denver
+64,Burnsberg,Montserrat,WY,Wyoming,Village,25.7441,-111.2289,658,341822,141047,115477,2.59,Pacific/Los_Angeles
+65,Lopezburgh,Trinidad and Tobago,ND,North Dakota,Hamlet,27.4469,-91.1299,200,139364,54286,141789,2.36,Central/Chicago
+66,Sarahton,Dominican Republic,FL,Florida,City,39.7813,-78.5236,366,248976,81201,137024,2.53,Eastern/New_York
+67,Carlosfurt,Somalia,PA,Pennsylvania,CDP,30.847,-119.0368,882,213071,64073,66495,1.21,Central/Chicago
+68,Jillmouth,Armenia,KY,Kentucky,Hamlet,38.4503,-88.1339,828,360634,153519,49690,2.29,Central/Chicago
+69,Lake Bonnie,Canada,KS,Kansas,Village,43.0924,-105.4855,511,72920,22056,41924,0.59,Mountain/Denver
+70,Mcdowellview,Saint Helena,AZ,Arizona,Village,26.7454,-67.1709,900,10985,4384,126907,2.68,Pacific/Los_Angeles
+71,Stacymouth,Nigeria,UT,Utah,Town,27.7406,-115.5063,446,106005,45572,52366,1.23,Pacific/Los_Angeles
+72,Codyport,Malawi,IN,Indiana,City,41.1433,-72.25,851,223148,103719,128524,1.71,Pacific/Los_Angeles
+73,North Victoriaburgh,Western Sahara,PR,Puerto Rico,City,42.9773,-105.8444,329,379930,156640,113303,0.15,Central/Chicago
+74,New Timothy,Singapore,MA,Massachusetts,City,42.9416,-68.564,615,252204,104851,124475,0.41,Pacific/Los_Angeles
+75,Hansonview,Somalia,ND,North Dakota,Hamlet,36.746,-123.7788,423,249910,76138,95343,1.99,Mountain/Denver
+76,Burnettstad,Germany,DE,Delaware,Village,40.911,-92.1161,654,374886,164900,66737,4.23,Mountain/Denver
+77,South Kevinstad,Cameroon,NY,New York,Village,30.3169,-91.863,880,468804,193431,24795,3.81,Pacific/Los_Angeles
+78,West Marilyn,Myanmar,OK,Oklahoma,CDP,29.0128,-77.4963,263,197217,67552,47789,4.96,Central/Chicago
+79,Keithfort,Zambia,ID,Idaho,City,28.4689,-95.133,466,83828,40254,111107,1.18,Central/Chicago
+80,Beverlyburgh,Timor-Leste,RI,Rhode Island,Village,30.3176,-89.9913,895,85069,37702,60151,2.73,Eastern/New_York
+81,West Richardshire,Cameroon,NE,Nebraska,CDP,25.0902,-85.494,741,78203,24714,134630,4.08,Mountain/Denver
+82,Kaitlynland,Poland,TX,Texas,Hamlet,37.2691,-124.1287,779,147776,49447,68386,3.91,Pacific/Los_Angeles
+83,Martinezshire,Netherlands Antilles,IN,Indiana,City,28.1123,-95.9709,384,279386,103277,28843,1.61,Pacific/Los_Angeles
+84,Alexanderberg,Svalbard & Jan Mayen Islands,NY,New York,City,41.3558,-70.6754,731,103705,39566,100564,4.42,Pacific/Los_Angeles
+85,Staceystad,Jersey,MO,Missouri,City,32.8043,-99.6163,491,211908,98475,81558,3.23,Pacific/Los_Angeles
+86,East Angelatown,Sri Lanka,NM,New Mexico,Village,26.0688,-97.2418,865,16599,8008,119421,1.58,Central/Chicago
+87,West Willieshire,Samoa,ND,North Dakota,Town,26.669,-78.1152,288,211204,71736,52211,4.64,Mountain/Denver
+88,East Patrickmouth,Monaco,CO,Colorado,Hamlet,46.5008,-78.3666,550,58699,27738,87090,2.59,Mountain/Denver
+89,Butlermouth,Saudi Arabia,MS,Mississippi,Hamlet,27.7846,-83.7299,402,143994,66100,57237,2.93,Pacific/Los_Angeles
+90,Andrewfurt,Mayotte,TN,Tennessee,Town,25.747,-83.068,954,220354,72671,56222,3.46,Eastern/New_York
+91,East Monica,Burundi,LA,Louisiana,City,28.2054,-105.0607,395,41864,13575,122047,2.2,Mountain/Denver
+92,Marshallburgh,Sudan,AR,Arkansas,Village,40.7066,-67.4332,806,14390,7153,135470,1.08,Mountain/Denver
+93,East Isaiahstad,Sri Lanka,TN,Tennessee,Hamlet,26.5082,-72.8769,655,259166,91838,101146,2.45,Central/Chicago
+94,Andreatown,Serbia,MO,Missouri,CDP,48.0889,-95.5828,983,411210,173533,89475,0.68,Central/Chicago
+95,East Regina,Anguilla,MA,Massachusetts,Town,42.7907,-99.4983,707,43878,20237,136611,0.54,Pacific/Los_Angeles
+96,Leahville,Kyrgyz Republic,MS,Mississippi,Hamlet,31.5409,-79.9566,467,389562,139377,148368,3.81,Pacific/Los_Angeles
+97,Shawnside,United States of America,CT,Connecticut,CDP,46.0324,-72.584,404,415558,191784,46179,2.54,Pacific/Los_Angeles
+98,Port Meganbury,Netherlands Antilles,MO,Missouri,City,25.8769,-95.5525,962,345002,154566,51712,2.85,Mountain/Denver
+99,Port Christinaberg,Madagascar,PR,Puerto Rico,City,47.8172,-118.8807,616,81669,27029,29584,2.43,Central/Chicago
+100,Simsshire,Guadeloupe,TN,Tennessee,Town,48.295,-108.1197,583,420263,130412,28709,0.73,Mountain/Denver
+101,Lake Christopher,Angola,NC,North Carolina,CDP,35.6073,-92.2791,523,447267,217705,43462,3.71,Pacific/Los_Angeles
+102,Morenofort,Mali,LA,Louisiana,Village,47.7699,-95.2941,559,124287,40921,25727,0.77,Eastern/New_York
+103,New Michelle,Madagascar,VA,Virginia,Hamlet,30.3631,-78.5776,690,41105,17980,147549,1.99,Mountain/Denver
+104,Leonardstad,Swaziland,OK,Oklahoma,City,46.4003,-85.3115,816,471329,144464,27564,4.95,Mountain/Denver
+105,Davidmouth,Indonesia,VA,Virginia,CDP,33.4206,-112.5071,298,485312,190039,64220,1.5,Central/Chicago
+106,New Patrick,United States Virgin Islands,AR,Arkansas,Town,35.4485,-68.2759,949,222370,107114,116977,0.54,Mountain/Denver
+107,Port Tabitha,Haiti,MT,Montana,CDP,39.0255,-110.12,759,355166,158578,145887,1.01,Mountain/Denver
+108,East Christopherhaven,Guinea-Bissau,SC,South Carolina,Town,40.09,-116.9561,524,99881,36869,37423,0.56,Central/Chicago
+109,South Williamburgh,Turkmenistan,DE,Delaware,Hamlet,26.1173,-118.3076,823,328201,106497,138284,1.73,Mountain/Denver
+110,Griffinshire,Iceland,AL,Alabama,Village,27.1849,-117.1574,718,120137,44534,89708,2.84,Pacific/Los_Angeles
+111,Emilytown,French Polynesia,GA,Georgia,Hamlet,47.2962,-105.3121,407,414524,151119,52252,4.02,Eastern/New_York
+112,Moralesville,Philippines,MA,Massachusetts,City,41.6729,-98.9154,476,9290,4262,45297,3.89,Pacific/Los_Angeles
+113,New Randallmouth,Georgia,SD,South Dakota,Village,39.4803,-74.3815,769,7838,3309,140302,1.88,Mountain/Denver
+114,Clarkeside,Ireland,RI,Rhode Island,Hamlet,31.7483,-122.8246,291,363258,164094,136179,0.66,Mountain/Denver
+115,Nicholasside,Portugal,IL,Illinois,Village,42.8156,-91.7831,640,426957,197432,124701,3.74,Pacific/Los_Angeles
+116,North Carolyn,Fiji,NM,New Mexico,Village,32.296,-106.8136,446,66546,29025,26509,4.14,Eastern/New_York
+117,South Rebekah,Iraq,GA,Georgia,City,46.8254,-111.3232,634,93463,33479,104600,0.62,Eastern/New_York
+118,Gomezshire,Greenland,RI,Rhode Island,Village,36.4468,-109.2096,667,104686,49809,43426,0.57,Mountain/Denver
+119,South Allisonborough,Turks and Caicos Islands,AZ,Arizona,Hamlet,46.7657,-88.5085,317,302925,123761,90003,4.81,Eastern/New_York
+120,Lake Joseph,Russian Federation,IN,Indiana,CDP,38.6596,-67.6274,305,341743,116671,107645,4.76,Mountain/Denver
+121,Lake Travis,Saudi Arabia,NV,Nevada,City,31.433,-85.7329,906,263042,109523,110812,2.66,Eastern/New_York
+122,West Tammy,Rwanda,NV,Nevada,Town,44.6549,-117.8564,926,477146,215870,118082,3.7,Pacific/Los_Angeles
+123,West Jenniferside,Bouvet Island (Bouvetoya),OH,Ohio,Hamlet,27.9245,-73.4638,674,340649,131968,119378,4.92,Pacific/Los_Angeles
+124,Sheamouth,United Kingdom,RI,Rhode Island,CDP,45.056,-87.5164,921,29908,13027,55293,1.19,Pacific/Los_Angeles
+125,Jonesville,Hungary,CA,California,City,28.3352,-113.7125,543,316154,133926,55698,2.82,Pacific/Los_Angeles
+126,New Karenstad,Myanmar,OR,Oregon,Hamlet,32.9243,-73.5878,485,490064,155854,114314,0.86,Central/Chicago
+127,South Michaelburgh,Sao Tome and Principe,MT,Montana,City,29.6144,-85.7754,492,433508,162962,148900,1.43,Mountain/Denver
+128,East Sheilamouth,Grenada,PA,Pennsylvania,Village,39.7492,-112.6688,478,130059,60125,26048,1.38,Mountain/Denver
+129,Keyfort,Chile,WI,Wisconsin,Hamlet,43.0473,-100.7716,337,265465,112270,20041,0.37,Central/Chicago
+130,North Sarah,Lao People's Democratic Republic,OH,Ohio,City,28.4671,-119.3739,860,135779,47130,52177,2.79,Central/Chicago
+131,Lake Seanbury,Dominica,FL,Florida,Hamlet,45.8394,-105.5528,998,62189,23268,83030,3.26,Eastern/New_York
+132,East Brittanybury,Italy,KY,Kentucky,Hamlet,35.6108,-100.2096,349,29871,13196,117136,3.29,Pacific/Los_Angeles
+133,Lake Patrickburgh,Holy See (Vatican City State),MO,Missouri,City,45.6007,-88.1926,236,150554,67620,90597,3.55,Eastern/New_York
+134,Lake Juliemouth,Indonesia,AL,Alabama,CDP,27.3293,-84.1383,676,88590,27372,45825,2.39,Mountain/Denver
+135,Williamsonfurt,Gabon,CO,Colorado,Hamlet,32.978,-107.7605,409,88130,38930,22217,2.23,Central/Chicago
+136,North Thomas,Bhutan,NM,New Mexico,CDP,29.7441,-88.2945,210,250329,102836,96041,2.8,Pacific/Los_Angeles
+137,Juarezfort,Botswana,OK,Oklahoma,Hamlet,32.155,-113.9601,755,442140,189223,48666,3.59,Central/Chicago
+138,Patrickfurt,Bulgaria,UT,Utah,CDP,44.8065,-83.2402,333,383263,144549,142577,4.45,Central/Chicago
+139,South Scottview,Nepal,ME,Maine,CDP,31.5194,-111.2224,397,251938,108115,145592,3.28,Eastern/New_York
+140,North Samanthaville,Cocos (Keeling) Islands,KS,Kansas,Hamlet,26.3786,-77.5545,203,492388,203980,38179,1.99,Central/Chicago
+141,South Michaelchester,Greece,IA,Iowa,City,33.5605,-83.2235,955,415086,136111,100640,0.26,Central/Chicago
+142,North Kristy,Romania,NE,Nebraska,Village,33.9445,-90.1798,474,26919,12384,130022,2.36,Mountain/Denver
+143,East Larryland,Anguilla,UT,Utah,CDP,29.4595,-95.918,575,16158,6923,41419,0.57,Pacific/Los_Angeles
+144,East Tara,Eritrea,WI,Wisconsin,Hamlet,32.0805,-87.7173,964,260828,93483,47676,2.31,Mountain/Denver
+145,Lake Connie,Svalbard & Jan Mayen Islands,OR,Oregon,City,25.7269,-71.574,447,61532,30680,30381,0.36,Eastern/New_York
+146,Jacksonchester,Taiwan,MO,Missouri,Town,47.0532,-87.7817,440,323818,148208,74249,1.95,Pacific/Los_Angeles
+147,Shannonville,Sao Tome and Principe,WV,West Virginia,CDP,32.8431,-116.2131,910,65751,23896,121496,1.9,Pacific/Los_Angeles
+148,Lake Heathershire,Latvia,WY,Wyoming,CDP,34.2878,-118.2868,939,463437,180576,42378,2.79,Central/Chicago
+149,South Jessicaburgh,Myanmar,SC,South Carolina,City,44.5777,-124.6464,547,130329,41204,21568,4.42,Pacific/Los_Angeles
+150,New Alan,Kenya,IL,Illinois,City,30.4374,-94.8462,571,211433,73843,109706,0.84,Eastern/New_York
+151,Maryburgh,Martinique,MT,Montana,City,25.3118,-78.5892,556,341873,143002,20569,2.87,Eastern/New_York
+152,Samanthaborough,South Georgia and the South Sandwich Islands,MN,Minnesota,Town,31.9296,-95.1143,755,487895,187311,115100,0.91,Mountain/Denver
+153,Loriview,Haiti,AZ,Arizona,Hamlet,40.4353,-75.9449,470,205294,84254,29791,1.87,Central/Chicago
+154,Lake Dan,Aruba,AZ,Arizona,CDP,32.602,-110.8761,517,380885,180257,145716,2.26,Eastern/New_York
+155,West Kevinhaven,Singapore,GA,Georgia,City,29.2287,-98.7576,679,240235,104556,119742,2.25,Mountain/Denver
+156,North Patrick,Montenegro,NV,Nevada,Hamlet,26.6955,-80.7406,287,373892,130768,132668,4.57,Mountain/Denver
+157,Lake Amanda,Netherlands,CO,Colorado,City,29.749,-97.9481,394,188803,60397,42499,0.67,Eastern/New_York
+158,North Jaclyntown,Equatorial Guinea,MA,Massachusetts,Hamlet,44.6308,-82.6966,930,63161,20780,30537,0.71,Eastern/New_York
+159,Laurenmouth,Bhutan,IL,Illinois,Village,39.9443,-79.8322,838,112568,44096,89020,1.35,Eastern/New_York
+160,Lake Jillstad,Hungary,OK,Oklahoma,City,35.1383,-96.0205,324,405757,146270,117358,0.5,Central/Chicago
+161,West Aaron,North Macedonia,KS,Kansas,Town,45.9535,-103.8638,858,464604,208157,106590,2.06,Eastern/New_York
+162,Briannaborough,Nepal,DC,District of Columbia,Town,34.8764,-114.1739,575,406857,145273,62288,2.16,Mountain/Denver
+163,New Jeffreyfurt,Ireland,VA,Virginia,City,40.8071,-106.4091,812,342829,154698,30723,0.72,Eastern/New_York
+164,West Lauraside,Colombia,VA,Virginia,Town,36.1124,-76.7965,206,142430,69282,144885,0.25,Mountain/Denver
+165,New Brian,New Caledonia,DE,Delaware,Village,42.9866,-121.9511,682,225684,76946,47417,0.21,Pacific/Los_Angeles
+166,New Michael,Uruguay,RI,Rhode Island,CDP,36.5861,-74.8573,961,476148,184164,65314,0.89,Eastern/New_York
+167,Michaelburgh,Slovakia (Slovak Republic),NH,New Hampshire,Hamlet,29.1095,-71.5697,579,69841,26579,76433,0.41,Eastern/New_York
+168,East David,Syrian Arab Republic,NE,Nebraska,Hamlet,27.0164,-89.8753,988,334983,112342,111220,3.31,Mountain/Denver
+169,Gailville,Nauru,TN,Tennessee,Hamlet,38.7816,-70.4206,885,84961,27233,148554,1.94,Mountain/Denver
+170,South Ashleyshire,Grenada,ME,Maine,Town,31.0109,-117.6051,848,393447,191218,37094,0.53,Pacific/Los_Angeles
+171,Lake Megan,Peru,GA,Georgia,CDP,33.813,-115.5418,942,205100,91517,51680,1.31,Pacific/Los_Angeles
+172,Samanthaville,Finland,NM,New Mexico,City,35.4323,-77.7941,921,6486,2392,142222,0.65,Mountain/Denver
+173,Robinsonbury,Uzbekistan,OH,Ohio,Village,34.7523,-94.2191,369,488929,163429,80074,2.33,Pacific/Los_Angeles
+174,East Jennifer,American Samoa,HI,Hawaii,City,38.0555,-91.7345,953,102989,39014,68366,0.31,Mountain/Denver
+175,Pooleport,British Indian Ocean Territory (Chagos Archipelago),UT,Utah,Village,36.6978,-95.1045,302,462882,220180,31652,0.24,Mountain/Denver
+176,North Yolanda,Honduras,IA,Iowa,CDP,28.3255,-69.8325,783,463169,152504,94428,0.35,Central/Chicago
+177,East Scott,Ghana,CT,Connecticut,City,43.678,-80.4687,589,397658,163799,64268,2.38,Eastern/New_York
+178,Colleenland,Canada,CT,Connecticut,Town,28.9552,-104.619,851,296012,118071,129923,4.77,Eastern/New_York
+179,Kristinafurt,Pitcairn Islands,CT,Connecticut,City,30.1636,-104.9549,405,374531,174698,94423,2.14,Eastern/New_York
+180,Brittanyfurt,Swaziland,WV,West Virginia,Village,37.0726,-79.5694,959,136956,59247,144176,0.72,Eastern/New_York
+181,Port Kellyland,Mauritania,WY,Wyoming,Town,30.0596,-102.0401,498,426804,153657,31343,2.79,Pacific/Los_Angeles
+182,East Michael,Turks and Caicos Islands,MA,Massachusetts,Village,27.5651,-124.6462,301,20922,6360,65258,4.69,Eastern/New_York
+183,North Steven,Azerbaijan,LA,Louisiana,Hamlet,30.6554,-111.1722,558,418644,133781,75350,4.97,Mountain/Denver
+184,Shermantown,Pitcairn Islands,KS,Kansas,City,29.6484,-80.9987,331,417005,186520,108035,4.05,Mountain/Denver
+185,South Michaelberg,Central African Republic,WA,Washington,CDP,36.8301,-116.4385,338,197223,64940,128302,0.72,Pacific/Los_Angeles
+186,Priceport,San Marino,ND,North Dakota,Village,26.9963,-84.3645,809,5422,2433,146199,1.26,Mountain/Denver
+187,New Jerrymouth,British Indian Ocean Territory (Chagos Archipelago),MI,Michigan,Village,42.4619,-117.5309,228,494940,157678,129436,2.32,Pacific/Los_Angeles
+188,Bergstad,Serbia,MO,Missouri,Town,41.4068,-101.4548,651,460276,183799,124625,2.95,Central/Chicago
+189,Coryton,Samoa,HI,Hawaii,Hamlet,41.1975,-67.4443,335,256193,86645,29747,4.55,Pacific/Los_Angeles
+190,Phillipmouth,Spain,TX,Texas,City,28.4841,-107.4063,734,290204,123602,99991,3.23,Mountain/Denver
+191,North Caroline,Argentina,TX,Texas,Village,27.2591,-106.2227,909,136323,48489,64028,4.83,Central/Chicago
+192,South Kimberlyfort,Falkland Islands (Malvinas),CA,California,Town,41.329,-77.6411,472,358257,174679,106443,2.42,Mountain/Denver
+193,Dianeport,Italy,NY,New York,Village,46.5893,-80.2127,940,242858,119325,143231,1.98,Mountain/Denver
+194,East Michael,Honduras,GA,Georgia,Hamlet,41.5674,-122.9139,432,444902,204634,48442,1.15,Mountain/Denver
+195,West Victormouth,British Virgin Islands,IL,Illinois,Town,41.7604,-72.6659,228,232478,90065,31628,4.51,Central/Chicago
+196,New Rebeccachester,Albania,VA,Virginia,Town,33.4623,-103.6101,423,143321,62466,23875,3.23,Eastern/New_York
+197,South Joshua,Cayman Islands,MT,Montana,Town,34.7975,-112.3555,460,372490,154146,99795,3.6,Central/Chicago
+198,Port Brenda,Nauru,KY,Kentucky,Town,41.2532,-92.9552,326,189701,77833,76848,1.7,Pacific/Los_Angeles
+199,Jamietown,Armenia,MN,Minnesota,Hamlet,35.2569,-118.7618,558,496414,189714,40204,1.48,Pacific/Los_Angeles
+200,South Teresa,Anguilla,OR,Oregon,Hamlet,32.4322,-74.4308,993,272018,125042,147134,1.97,Mountain/Denver
+201,Derekhaven,Saint Kitts and Nevis,SD,South Dakota,Village,42.7454,-117.0207,900,62319,25801,44816,1.9,Central/Chicago
+202,Kellyland,Mongolia,MS,Mississippi,Hamlet,36.4937,-118.4823,513,7641,3017,39214,1.2,Mountain/Denver
+203,Ashleyton,Sudan,AZ,Arizona,Village,35.1797,-121.3661,284,388417,165508,73721,3.43,Pacific/Los_Angeles
+204,Dianefurt,Samoa,AR,Arkansas,CDP,34.4346,-78.0407,534,306076,118972,47813,4.37,Mountain/Denver
+205,Steventown,Papua New Guinea,TN,Tennessee,CDP,35.1005,-99.2625,299,103815,34865,28603,4.96,Pacific/Los_Angeles
+206,North Elizabethmouth,Saint Lucia,AZ,Arizona,Town,47.2864,-105.4603,736,100102,41332,95471,0.58,Pacific/Los_Angeles
+207,South Scott,Korea,MO,Missouri,Hamlet,34.824,-73.9,395,381502,144384,100904,1.69,Mountain/Denver
+208,New Bradleyborough,Mexico,UT,Utah,Village,26.0488,-104.3306,910,55600,21825,104297,3.6,Eastern/New_York
+209,East Timothy,Netherlands Antilles,VA,Virginia,Village,32.1207,-84.7741,521,106780,50104,141329,4.36,Central/Chicago
+210,East Joann,Russian Federation,GA,Georgia,City,26.1598,-112.9078,433,410456,159189,98743,4.98,Eastern/New_York
+211,South Sheena,Samoa,VT,Vermont,Hamlet,43.3333,-72.0386,716,301638,104857,20562,2.31,Eastern/New_York
+212,Arianaview,Nigeria,CO,Colorado,Village,33.322,-100.9317,373,335640,113159,81520,3.62,Pacific/Los_Angeles
+213,Ginaburgh,Jamaica,KY,Kentucky,Town,29.6894,-114.0949,893,76261,25046,72069,2.21,Pacific/Los_Angeles
+214,New Stacy,Tokelau,NC,North Carolina,CDP,25.1711,-115.3549,444,371263,156076,128573,4.43,Pacific/Los_Angeles
+215,Howardchester,Estonia,SD,South Dakota,Town,46.1409,-102.055,282,30499,12644,133018,3.27,Mountain/Denver
+216,New Rebeccastad,Russian Federation,ID,Idaho,Hamlet,44.7349,-70.0914,568,432436,171629,145934,3.48,Central/Chicago
+217,Blevinstown,Nauru,WV,West Virginia,Hamlet,43.0277,-72.437,224,219298,102908,138524,3.65,Mountain/Denver
+218,Phillipbury,Netherlands Antilles,LA,Louisiana,Hamlet,48.7243,-79.276,660,261619,110851,149540,2.25,Central/Chicago
+219,Samanthachester,Malaysia,HI,Hawaii,Town,43.709,-121.5631,272,164962,54595,23883,3.09,Pacific/Los_Angeles
+220,Markfurt,Northern Mariana Islands,WI,Wisconsin,Village,42.0599,-80.0593,283,470488,179131,128723,3.1,Central/Chicago
+221,Stephenstown,French Southern Territories,CT,Connecticut,City,25.2352,-86.7426,518,280005,122428,40508,1.21,Central/Chicago
+222,Blevinsshire,Holy See (Vatican City State),LA,Louisiana,City,42.6184,-79.8376,446,459068,214321,129147,0.79,Eastern/New_York
+223,South Craig,Pitcairn Islands,PR,Puerto Rico,Hamlet,40.9118,-105.3108,960,79969,30943,105513,3.48,Central/Chicago
+224,Kimberlyport,Mongolia,TN,Tennessee,CDP,32.4197,-103.3045,214,287340,135266,114491,4.07,Mountain/Denver
+225,Ashleytown,Russian Federation,AL,Alabama,Town,37.3902,-112.0585,520,162206,67413,100464,2.32,Central/Chicago
+226,South Veronica,Somalia,TN,Tennessee,Town,34.0379,-102.628,674,267036,101221,108987,2.28,Central/Chicago
+227,Lake Staceyberg,Swaziland,FL,Florida,Town,45.0884,-69.7298,497,426864,142238,43931,0.66,Mountain/Denver
+228,Murphymouth,Togo,VA,Virginia,CDP,25.2534,-90.0486,503,8756,2807,65214,3.7,Mountain/Denver
+229,Mitchellview,United States Virgin Islands,KS,Kansas,City,43.2852,-108.8244,215,16739,7042,92403,2.81,Mountain/Denver
+230,Danielshire,Guernsey,CO,Colorado,Hamlet,25.2965,-109.4324,496,411695,180191,95927,0.45,Mountain/Denver
+231,Stephaniemouth,Bhutan,AL,Alabama,CDP,25.5283,-77.8167,297,181549,62599,130053,2.56,Central/Chicago
+232,Lake Anna,Malawi,WI,Wisconsin,City,28.2578,-112.1149,622,267243,108687,55296,3.94,Pacific/Los_Angeles
+233,Millerland,Bosnia and Herzegovina,OR,Oregon,CDP,37.155,-121.9756,539,50730,17476,139466,1.13,Pacific/Los_Angeles
+234,New Joseph,Guyana,SC,South Carolina,Village,26.9903,-67.0606,337,274191,135106,63524,0.97,Pacific/Los_Angeles
+235,Tammyport,Equatorial Guinea,TX,Texas,Hamlet,27.5818,-87.2941,689,66489,28300,70537,0.86,Central/Chicago
+236,Danielmouth,United States of America,KS,Kansas,Town,42.094,-102.5196,492,357208,114273,37794,0.59,Central/Chicago
+237,New Matthew,United Arab Emirates,OK,Oklahoma,CDP,28.6024,-96.9408,675,286949,121200,94678,1.18,Central/Chicago
+238,Michelleside,Lithuania,PA,Pennsylvania,Village,32.5479,-82.3434,249,83794,31111,89170,4.46,Pacific/Los_Angeles
+239,New Richard,Aruba,KY,Kentucky,Town,41.0476,-112.3824,570,248877,122191,81720,3.22,Central/Chicago
+240,Danielsfort,Saint Kitts and Nevis,FL,Florida,CDP,31.4109,-82.9904,357,488183,158998,34500,4.37,Pacific/Los_Angeles
+241,Lake Gloria,Lesotho,NE,Nebraska,CDP,26.4257,-74.3018,476,476209,170936,25012,0.42,Mountain/Denver
+242,West Stephenport,Gambia,NY,New York,Village,31.0306,-85.3929,716,324398,123332,33990,0.57,Mountain/Denver
+243,Villaton,Guadeloupe,MD,Maryland,City,27.9298,-79.1029,810,128499,40620,93481,0.29,Eastern/New_York
+244,West Frank,Azerbaijan,VA,Virginia,City,31.4588,-97.5769,332,253050,106893,144117,3.82,Eastern/New_York
+245,New Gregory,Albania,WV,West Virginia,CDP,28.9213,-121.5149,281,167516,57273,63634,3.89,Pacific/Los_Angeles
+246,Velasquezport,Burkina Faso,DC,District of Columbia,City,47.2386,-84.5993,663,163128,60535,51099,3.17,Mountain/Denver
+247,Morganfort,Bolivia,SC,South Carolina,CDP,34.099,-115.3892,857,248103,117180,34101,1.65,Eastern/New_York
+248,North Erinside,United Arab Emirates,NE,Nebraska,City,38.1217,-68.1992,919,151350,70522,23836,3.03,Mountain/Denver
+249,Pattersonland,Jordan,MD,Maryland,City,31.3543,-112.6434,718,67873,26754,102584,1.65,Mountain/Denver
+250,West John,Azerbaijan,FL,Florida,City,35.0997,-67.8247,247,492650,209452,51579,1.08,Mountain/Denver
+251,Marcusport,Morocco,CA,California,Hamlet,38.5605,-111.9821,400,40528,16225,22747,0.45,Eastern/New_York
+252,Brooksfort,Papua New Guinea,OR,Oregon,Hamlet,39.277,-109.5413,737,327703,156774,62770,0.24,Pacific/Los_Angeles
+253,Port Marcoshire,Italy,WA,Washington,Village,31.8251,-79.3223,847,42146,19796,43989,1.1,Central/Chicago
+254,Brandonland,Cyprus,VT,Vermont,Village,33.1009,-107.7614,841,282763,95559,67110,1.29,Eastern/New_York
+255,New Lucasview,Slovenia,HI,Hawaii,Hamlet,39.089,-87.857,473,496674,203121,108605,1,Eastern/New_York
+256,South Christina,Denmark,WV,West Virginia,Town,41.4866,-113.0891,402,209837,85118,24324,2.28,Mountain/Denver
+257,Robertstad,Czech Republic,UT,Utah,Town,30.9235,-95.0359,446,467854,154631,105790,2.38,Central/Chicago
+258,West Kenneth,Senegal,IA,Iowa,Hamlet,26.1541,-70.087,772,270446,113439,21892,4.8,Central/Chicago
+259,Brittanyfurt,Panama,AL,Alabama,City,31.3882,-90.247,948,30455,13051,41765,2.85,Pacific/Los_Angeles
+260,Jessicachester,Portugal,NY,New York,Hamlet,40.3939,-100.2489,398,182558,81258,23215,2.13,Mountain/Denver
+261,Smithhaven,Jordan,NM,New Mexico,Village,48.9281,-119.4546,392,470333,190725,88087,2.69,Mountain/Denver
+262,North Ariana,Ethiopia,AZ,Arizona,City,44.6353,-67.5183,369,228303,110910,111538,4.95,Pacific/Los_Angeles
+263,West Johnfurt,Malta,IA,Iowa,Hamlet,29.3012,-103.4772,930,49720,22183,119503,0.78,Eastern/New_York
+264,West John,Solomon Islands,MA,Massachusetts,Village,45.2828,-119.3768,254,49481,15036,82369,2.88,Pacific/Los_Angeles
+265,East Cory,Antigua and Barbuda,UT,Utah,Town,32.6322,-98.2979,704,428328,189899,36372,0.17,Pacific/Los_Angeles
+266,New Valerieborough,Djibouti,HI,Hawaii,City,42.2648,-71.7126,508,12492,4139,66960,0.59,Mountain/Denver
+267,Johnsonmouth,Eritrea,WY,Wyoming,City,27.935,-97.7835,300,134944,42991,78930,4.9,Mountain/Denver
+268,North Adam,Taiwan,NC,North Carolina,Village,29.3622,-106.5663,680,99459,46108,60519,0.19,Eastern/New_York
+269,West Tinafort,Namibia,UT,Utah,CDP,38.7357,-82.0917,605,435362,165785,89945,3.94,Pacific/Los_Angeles
+270,Port Lucasshire,Turkey,WY,Wyoming,CDP,38.3,-71.9715,511,454783,145047,52715,4.42,Mountain/Denver
+271,Christinamouth,Paraguay,RI,Rhode Island,Town,35.3477,-89.7075,226,117684,38428,33514,0.11,Eastern/New_York
+272,Aaronhaven,Namibia,NY,New York,Town,41.623,-121.6599,308,228009,84813,31861,3.74,Mountain/Denver
+273,New Virginia,Greece,OR,Oregon,Town,36.787,-118.2564,489,206302,92409,124071,3.2,Eastern/New_York
+274,Catherinefurt,Ireland,GA,Georgia,Village,43.7639,-84.2165,671,22045,8809,78466,4.13,Central/Chicago
+275,Guzmanfort,South Georgia and the South Sandwich Islands,MO,Missouri,Hamlet,47.1313,-102.9005,225,244518,116415,39776,1.33,Pacific/Los_Angeles
+276,South Alexander,Guatemala,ME,Maine,Village,26.8988,-101.8654,495,369172,165993,20605,4.33,Pacific/Los_Angeles
+277,South Brandon,Djibouti,NY,New York,Village,33.9744,-100.6922,831,309128,117038,125576,0.85,Central/Chicago
+278,North Meghan,Palestinian Territory,MO,Missouri,City,28.2871,-117.2036,403,140455,51806,81210,4.58,Central/Chicago
+279,Abigailborough,Namibia,NV,Nevada,Town,29.287,-95.022,646,270463,124235,96525,1.62,Mountain/Denver
+280,Jerryton,Northern Mariana Islands,MA,Massachusetts,Hamlet,26.517,-76.7107,894,261794,83440,23914,3.69,Mountain/Denver
+281,Jeremyborough,Belarus,VA,Virginia,City,38.8826,-99.6793,635,226482,95357,36549,4.96,Mountain/Denver
+282,West James,Azerbaijan,TN,Tennessee,Hamlet,46.9299,-100.274,829,371580,119015,89572,0.78,Pacific/Los_Angeles
+283,East Matthew,Bolivia,ID,Idaho,CDP,35.9426,-118.7421,670,9303,4121,49849,3.31,Pacific/Los_Angeles
+284,Andrewstad,Turkey,AZ,Arizona,Village,30.3554,-82.3714,236,453362,159750,98829,4.2,Pacific/Los_Angeles
+285,New Coltonport,Cook Islands,NY,New York,Town,27.9562,-108.9055,754,25630,9947,127977,2.13,Central/Chicago
+286,Jonesport,Australia,TX,Texas,Hamlet,35.9729,-80.7856,553,38929,17227,56212,1.64,Mountain/Denver
+287,West Josephberg,Singapore,RI,Rhode Island,Village,37.8584,-76.4233,512,174603,71289,79908,3.76,Pacific/Los_Angeles
+288,Port Danielchester,Brazil,NE,Nebraska,Hamlet,31.1821,-124.6141,795,222642,85435,136136,3.44,Mountain/Denver
+289,Christianville,Isle of Man,AZ,Arizona,CDP,47.4863,-116.8438,790,330131,165043,85803,2.63,Eastern/New_York
+290,South Jeffrey,Barbados,ND,North Dakota,Village,29.2267,-107.5392,742,103162,32246,111623,4.76,Eastern/New_York
+291,Matthewberg,Ghana,OK,Oklahoma,Hamlet,47.223,-97.6978,530,146827,59534,124115,3.84,Eastern/New_York
+292,East Amy,United States Minor Outlying Islands,PR,Puerto Rico,CDP,27.1049,-108.0649,464,472241,197738,33837,3.31,Eastern/New_York
+293,Raymouth,Cuba,AR,Arkansas,Village,48.5589,-114.6696,737,129881,40430,148149,3.42,Central/Chicago
+294,Port Mark,New Zealand,IL,Illinois,Town,34.455,-97.1932,234,105177,37933,125645,1.8,Central/Chicago
+295,Jeffreyton,Micronesia,AK,Alaska,Hamlet,47.5223,-102.2887,375,274868,120323,149688,0.61,Pacific/Los_Angeles
+296,West Aaronville,Saint Pierre and Miquelon,ID,Idaho,Town,30.9178,-106.3192,671,306106,95623,76096,4.77,Pacific/Los_Angeles
+297,Lefort,Reunion,WI,Wisconsin,Hamlet,41.0594,-99.3202,484,314544,148961,103383,3.29,Mountain/Denver
+298,Troyburgh,Congo,ND,North Dakota,Hamlet,34.6284,-98.8475,885,67634,26588,80763,0.36,Mountain/Denver
+299,Port William,Austria,WI,Wisconsin,City,44.6242,-118.1058,257,485996,184756,21593,1.99,Mountain/Denver
+300,Johnhaven,Cameroon,CT,Connecticut,Village,27.4131,-80.257,746,369017,180564,57669,3.12,Central/Chicago
+301,North Kelsey,Pitcairn Islands,IN,Indiana,Town,28.8023,-105.4977,696,281926,126548,27869,3.33,Mountain/Denver
+302,Thomasburgh,Samoa,KY,Kentucky,Hamlet,45.7119,-117.5521,710,490740,207608,72295,3.55,Mountain/Denver
+303,South Dakotaton,Tonga,IA,Iowa,Town,43.8217,-100.6078,988,445409,219874,61206,2.28,Mountain/Denver
+304,Jasonland,Equatorial Guinea,SD,South Dakota,CDP,32.4177,-111.9063,600,58217,20105,128600,4.53,Pacific/Los_Angeles
+305,Brownbury,Papua New Guinea,SC,South Carolina,Town,30.2224,-100.9765,992,402441,135887,142231,2.97,Central/Chicago
+306,Amymouth,Guinea,CO,Colorado,CDP,47.6816,-109.7992,780,499978,231035,105872,1.87,Mountain/Denver
+307,Lake Oliviamouth,Venezuela,CT,Connecticut,CDP,48.0527,-69.6224,302,36259,12217,113574,0.19,Central/Chicago
+308,East Nina,Eritrea,DC,District of Columbia,City,39.0434,-93.7167,758,242049,114306,80983,2.02,Mountain/Denver
+309,Glennview,Libyan Arab Jamahiriya,SD,South Dakota,Hamlet,48.205,-95.7681,868,12535,3940,121796,2.67,Central/Chicago
+310,Lake Tara,Iran,MD,Maryland,Town,35.6331,-105.104,433,65720,26070,75238,1.39,Eastern/New_York
+311,Thomastown,Libyan Arab Jamahiriya,MT,Montana,Village,29.6594,-115.9311,407,87111,31228,97616,0.35,Eastern/New_York
+312,Moralesbury,South Georgia and the South Sandwich Islands,NJ,New Jersey,CDP,44.8274,-115.3071,207,264487,130667,20144,4.73,Eastern/New_York
+313,East Derrickland,China,DE,Delaware,City,33.041,-103.534,598,263700,80381,37650,2.02,Eastern/New_York
+314,East Mauriceside,Burundi,PA,Pennsylvania,Town,47.4299,-67.7063,630,303045,109587,54402,4.3,Central/Chicago
+315,Robinsonmouth,Cameroon,NY,New York,Village,31.7046,-109.2308,845,289358,112499,132383,2.78,Pacific/Los_Angeles
+316,South Renee,Djibouti,NC,North Carolina,Village,46.9629,-80.0818,678,260134,99567,67826,1.62,Mountain/Denver
+317,Jonesmouth,Germany,LA,Louisiana,Hamlet,26.7744,-123.3979,365,282000,95601,57990,3.66,Pacific/Los_Angeles
+318,Jessicatown,Cameroon,AZ,Arizona,Town,35.5879,-87.0255,745,20335,8305,106693,2.77,Mountain/Denver
+319,Brownstad,Armenia,MD,Maryland,Hamlet,36.002,-69.7907,960,370897,118648,51425,4.76,Central/Chicago
+320,Johnsonbury,Iceland,NH,New Hampshire,Town,36.4285,-113.0752,636,79967,25091,28263,3.45,Central/Chicago
+321,Lake Tricia,Qatar,ME,Maine,Town,34.9646,-118.6352,447,91159,37744,96348,0.48,Central/Chicago
+322,Colonborough,New Caledonia,WI,Wisconsin,CDP,47.0874,-108.3451,514,387663,183168,110682,1.29,Central/Chicago
+323,North Danielstad,Bouvet Island (Bouvetoya),IL,Illinois,Town,41.1827,-100.2941,808,303831,114059,121061,2.29,Central/Chicago
+324,North Georgechester,Nigeria,WI,Wisconsin,City,37.9104,-79.0646,460,244488,117788,37693,0.78,Mountain/Denver
+325,Andersonfort,Honduras,OK,Oklahoma,Village,26.1526,-106.9606,473,113123,51551,107079,4.12,Central/Chicago
+326,Davisshire,Jordan,MO,Missouri,CDP,28.0802,-80.2221,619,77716,34279,32056,2.9,Mountain/Denver
+327,Lake Kimberlyberg,Somalia,NJ,New Jersey,Hamlet,32.0659,-75.5456,682,12535,4203,114061,3,Mountain/Denver
+328,Christinaland,Niue,IN,Indiana,City,46.8345,-68.5612,270,357447,121608,39069,0.78,Central/Chicago
+329,East Alan,Mexico,MI,Michigan,Town,29.093,-98.1289,694,202507,92044,134177,1.49,Eastern/New_York
+330,East Sean,Denmark,NJ,New Jersey,City,29.0335,-122.3141,675,212490,82948,31351,4.49,Mountain/Denver
+331,Kimberlystad,American Samoa,NC,North Carolina,CDP,41.5747,-68.4058,239,170119,59520,113505,3.37,Eastern/New_York
+332,Smithburgh,Netherlands,NJ,New Jersey,Hamlet,28.6428,-90.2573,774,321936,99034,100974,1.85,Mountain/Denver
+333,Port Rebecca,United Kingdom,WA,Washington,Village,37.8228,-104.2157,904,81722,28605,104209,3.13,Pacific/Los_Angeles
+334,Taylorburgh,Sao Tome and Principe,CO,Colorado,CDP,29.736,-117.8254,292,405856,160303,76599,1.12,Central/Chicago
+335,South James,Morocco,MO,Missouri,Town,43.3015,-116.1708,861,123155,58995,43802,2.77,Eastern/New_York
+336,East Jennifer,Guyana,NC,North Carolina,Town,30.9206,-77.2822,616,90751,28807,72648,4.26,Eastern/New_York
+337,Dillonstad,Saudi Arabia,OR,Oregon,City,38.2318,-113.4085,400,422349,177976,134461,3.9,Eastern/New_York
+338,Mcgeeton,Korea,MO,Missouri,Hamlet,36.7821,-109.6844,842,211129,97495,79193,3.88,Central/Chicago
+339,Lake Chelseashire,Guyana,PA,Pennsylvania,Town,28.7744,-117.7497,367,63131,29623,52037,4.25,Pacific/Los_Angeles
+340,Amyport,Western Sahara,PR,Puerto Rico,Hamlet,37.8074,-104.9638,401,55410,20779,86370,4.09,Mountain/Denver
+341,West Cody,Saint Martin,CA,California,Hamlet,44.2032,-112.8714,307,96673,46047,146289,3.87,Eastern/New_York
+342,North Meganmouth,Bosnia and Herzegovina,IN,Indiana,Hamlet,38.5565,-102.9381,242,199848,99189,125899,3.3,Mountain/Denver
+343,Angelamouth,Luxembourg,MT,Montana,Hamlet,38.5303,-83.3004,219,219679,66121,115593,4.24,Central/Chicago
+344,Karitown,Gabon,KY,Kentucky,CDP,39.6906,-116.5415,303,408699,146081,78242,4.52,Pacific/Los_Angeles
+345,Port Paula,Swaziland,IA,Iowa,Hamlet,39.1629,-112.038,850,340029,160626,123248,0.61,Pacific/Los_Angeles
+346,South Robertoshire,United States Minor Outlying Islands,WA,Washington,City,40.9016,-71.9898,355,305445,152311,35900,1.68,Central/Chicago
+347,Seanburgh,Malawi,MS,Mississippi,Hamlet,46.8441,-113.3495,760,357642,156403,109203,4.74,Pacific/Los_Angeles
+348,West Mary,Turkey,PA,Pennsylvania,CDP,34.1846,-110.0942,976,393568,193529,143474,4.63,Pacific/Los_Angeles
+349,Josechester,French Southern Territories,MN,Minnesota,City,47.9743,-97.4726,665,200988,77031,137734,1.79,Eastern/New_York
+350,Thompsonside,Germany,VT,Vermont,Village,30.6547,-92.3683,224,85962,32928,132579,1.03,Mountain/Denver
+351,Shawnburgh,Indonesia,WY,Wyoming,Village,27.4638,-73.6304,574,98116,35665,123385,2.38,Eastern/New_York
+352,Stouttown,Angola,MN,Minnesota,Town,48.2676,-82.049,986,184127,59761,121040,3.1,Central/Chicago
+353,West Meghanstad,Guatemala,KS,Kansas,CDP,39.862,-106.1347,380,56765,22311,45873,1.03,Pacific/Los_Angeles
+354,Lake Kayla,Cook Islands,RI,Rhode Island,Village,44.8037,-78.4285,366,277853,106847,37593,4.37,Central/Chicago
+355,Evansstad,Slovakia (Slovak Republic),GA,Georgia,CDP,41.1117,-118.1338,525,42112,18313,90025,1.44,Pacific/Los_Angeles
+356,Anthonymouth,Israel,ME,Maine,Village,46.2631,-102.1034,991,339831,126643,102393,1.32,Central/Chicago
+357,East Samantha,China,DC,District of Columbia,City,47.0209,-113.6531,721,277455,95036,26063,1.38,Eastern/New_York
+358,South Juliahaven,Luxembourg,FL,Florida,CDP,48.0539,-72.2738,751,163464,74250,27134,2.95,Eastern/New_York
+359,Timothychester,Bahamas,UT,Utah,Town,30.7618,-77.9813,999,239188,88581,129096,1.84,Central/Chicago
+360,Burnettfort,Norfolk Island,AL,Alabama,City,46.712,-122.1068,321,324785,125417,131000,0.66,Mountain/Denver
+361,Jameshaven,Fiji,WY,Wyoming,Town,28.4883,-80.4511,307,404469,175262,74877,1.49,Eastern/New_York
+362,West Edgar,Slovenia,LA,Louisiana,CDP,46.8488,-101.1259,289,343562,110426,106547,1.95,Mountain/Denver
+363,East Jamie,Oman,NJ,New Jersey,City,32.5189,-116.1887,572,218903,68387,53632,4.64,Mountain/Denver
+364,New Randyport,United States Virgin Islands,MS,Mississippi,City,28.5338,-79.6684,911,126774,62213,95140,4.79,Central/Chicago
+365,East Kennethmouth,Heard Island and McDonald Islands,MA,Massachusetts,City,27.4628,-110.6912,879,42448,19244,34799,3.12,Pacific/Los_Angeles
+366,Parkerchester,Djibouti,NV,Nevada,City,44.4488,-72.5462,352,40932,16203,58075,4.77,Mountain/Denver
+367,New Ann,Libyan Arab Jamahiriya,VT,Vermont,Hamlet,31.5698,-90.6333,852,225789,93747,49211,1.63,Pacific/Los_Angeles
+368,Lake Bonnie,Nigeria,PA,Pennsylvania,Village,40.462,-110.9886,232,170954,69866,60129,2.33,Pacific/Los_Angeles
+369,Simonmouth,Bangladesh,MS,Mississippi,Hamlet,36.2252,-83.0307,711,257296,83838,85077,4.98,Central/Chicago
+370,West Julie,Nigeria,ND,North Dakota,Village,34.8842,-94.3334,795,159988,71338,28466,4.23,Mountain/Denver
+371,East Kristin,Martinique,MS,Mississippi,Town,38.7375,-109.4014,570,48440,18386,24054,1.62,Pacific/Los_Angeles
+372,North Cheryl,Guadeloupe,GA,Georgia,CDP,35.8051,-73.3912,234,309537,98820,22851,0.37,Central/Chicago
+373,Danielchester,Saint Helena,PA,Pennsylvania,Village,28.8481,-107.673,321,459888,166593,100509,1.72,Central/Chicago
+374,Zacharyfurt,Ecuador,NC,North Carolina,City,27.5055,-112.9378,935,411922,193016,78931,2.31,Central/Chicago
+375,Sandrahaven,Kyrgyz Republic,NY,New York,Village,44.7327,-72.6905,509,93759,43488,46408,4.2,Central/Chicago
+376,Alvinland,Isle of Man,OH,Ohio,Town,41.9036,-111.2891,329,489579,206625,129922,3.84,Eastern/New_York
+377,Tylerborough,Madagascar,MN,Minnesota,Village,46.1439,-110.9559,506,194063,94366,64480,4.87,Mountain/Denver
+378,Francobury,Saint Vincent and the Grenadines,WA,Washington,City,28.6838,-112.5977,401,125520,60093,57865,1.27,Eastern/New_York
+379,Williamsville,Lebanon,LA,Louisiana,Hamlet,25.3106,-100.6105,361,178672,57615,97200,3.1,Eastern/New_York
+380,South William,Lithuania,OR,Oregon,City,35.7163,-98.2004,346,93830,42535,77800,0.43,Pacific/Los_Angeles
+381,North Lorettaborough,Faroe Islands,NE,Nebraska,Town,26.1414,-96.3583,690,366276,179494,123036,3.32,Mountain/Denver
+382,Sweeneybury,Turkmenistan,DC,District of Columbia,Village,35.4618,-93.232,889,439404,217195,97317,0.13,Mountain/Denver
+383,Port Loriport,Samoa,NC,North Carolina,Village,39.73,-78.0917,894,457815,173315,29116,0.86,Pacific/Los_Angeles
+384,North Robert,Saint Lucia,HI,Hawaii,Hamlet,26.4177,-123.6573,863,182750,63865,30336,4.73,Central/Chicago
+385,New Matthew,Mali,VA,Virginia,Hamlet,41.5366,-76.2955,413,374043,143961,115721,3.43,Central/Chicago
+386,Gutierrezview,Taiwan,SC,South Carolina,CDP,46.9861,-86.0064,954,335871,150859,147274,4.64,Eastern/New_York
+387,Coreyfort,San Marino,ME,Maine,Hamlet,37.7968,-71.4845,314,462062,227660,97251,1.83,Eastern/New_York
+388,Melissaland,Norway,MN,Minnesota,City,34.9373,-83.6415,962,104777,48715,134407,0.29,Eastern/New_York
+389,Port Sherrystad,Cook Islands,PR,Puerto Rico,City,40.0613,-100.4529,611,318614,156531,57872,4.79,Mountain/Denver
+390,New Gregoryport,Chad,TN,Tennessee,Village,34.7395,-87.7955,996,257263,77472,62061,0.25,Central/Chicago
+391,Lake Theresaburgh,Wallis and Futuna,TN,Tennessee,CDP,41.7572,-115.4525,221,250630,123213,23100,4.5,Pacific/Los_Angeles
+392,Williamsberg,Fiji,WV,West Virginia,Hamlet,36.3682,-94.8065,658,285984,108203,23825,2.69,Central/Chicago
+393,Riceberg,Marshall Islands,MI,Michigan,Town,28.3506,-94.8969,666,213556,99006,105133,4.91,Eastern/New_York
+394,Walkermouth,Bahrain,IL,Illinois,Hamlet,42.7543,-93.214,365,374518,158763,114919,4.11,Mountain/Denver
+395,Lake Jacobtown,Morocco,KS,Kansas,City,45.4953,-73.7845,988,476352,193119,91876,3.06,Mountain/Denver
+396,Daniellefort,Djibouti,IL,Illinois,Town,27.1035,-92.4275,512,316661,155915,24900,2.1,Pacific/Los_Angeles
+397,Lake Jeffrey,Austria,DC,District of Columbia,Hamlet,42.8454,-67.1471,281,281279,87757,69136,2.21,Eastern/New_York
+398,Port Amanda,Sweden,SC,South Carolina,City,34.9656,-73.9713,850,383232,171041,58748,2.42,Pacific/Los_Angeles
+399,Lake Jeffreyville,Cote d'Ivoire,RI,Rhode Island,City,39.2652,-76.3588,862,11178,5577,25995,3.88,Mountain/Denver
+400,West Kayla,Switzerland,CA,California,City,25.5287,-92.9489,301,274976,128926,92890,1.8,Eastern/New_York
+401,Port Kyle,Cambodia,WI,Wisconsin,Hamlet,31.2049,-69.7836,830,158563,76322,83160,0.35,Central/Chicago
+402,New Shawnchester,China,MA,Massachusetts,CDP,45.1617,-108.5783,730,290581,89250,144505,2.41,Mountain/Denver
+403,Camposmouth,Bhutan,IN,Indiana,Hamlet,43.1379,-121.0398,728,32658,13471,100608,2.66,Eastern/New_York
+404,Kaylaland,Cyprus,AK,Alaska,CDP,35.1337,-121.0349,456,8716,3813,113421,4.54,Eastern/New_York
+405,Seanville,Chad,LA,Louisiana,Village,39.285,-90.0509,504,265220,94185,133249,4.95,Pacific/Los_Angeles
+406,Hughesborough,Christmas Island,WI,Wisconsin,Town,40.6261,-83.4745,799,43765,18282,24263,3.88,Central/Chicago
+407,Vanessatown,Comoros,AK,Alaska,Town,33.1053,-115.9947,517,460707,201229,94306,2.26,Central/Chicago
+408,Chelseabury,Puerto Rico,VT,Vermont,Village,48.63,-116.3391,866,491986,171571,71704,3.12,Central/Chicago
+409,Jenniferville,Kyrgyz Republic,AK,Alaska,Village,39.0087,-107.3595,743,474738,167526,80803,3.2,Eastern/New_York
+410,Conwayview,Namibia,PA,Pennsylvania,CDP,36.095,-70.4929,453,246138,87187,49779,3.79,Eastern/New_York
+411,Mitchellport,Norfolk Island,CT,Connecticut,Hamlet,25.5364,-77.8668,290,163164,81339,54120,3.21,Pacific/Los_Angeles
+412,East Lydiabury,Greece,TN,Tennessee,Town,45.3972,-103.5267,294,363567,135250,145311,3.46,Pacific/Los_Angeles
+413,Smithfurt,Benin,DC,District of Columbia,CDP,35.151,-105.1726,771,372506,145520,118297,4.2,Pacific/Los_Angeles
+414,East Jessica,Portugal,IL,Illinois,City,30.3034,-99.2683,720,473391,168031,68170,1.6,Eastern/New_York
+415,Nicholasfurt,Palau,ME,Maine,Hamlet,32.2384,-94.065,383,118332,35877,145707,2.97,Central/Chicago
+416,Carlosmouth,South Africa,PR,Puerto Rico,Hamlet,34.1261,-70.0482,435,320985,118036,29205,0.18,Eastern/New_York
+417,Johnsonhaven,Netherlands,SD,South Dakota,Village,43.059,-116.3128,258,144319,54041,41737,2.13,Pacific/Los_Angeles
+418,Christophertown,Costa Rica,KS,Kansas,Hamlet,25.2585,-92.0203,681,342965,170511,24469,1.04,Central/Chicago
+419,Eatonburgh,Paraguay,IL,Illinois,CDP,26.8764,-83.7709,263,229939,113255,100494,1.64,Mountain/Denver
+420,Michaelside,Hong Kong,MD,Maryland,Village,27.5082,-102.0142,646,159835,54745,148929,0.42,Pacific/Los_Angeles
+421,West Shaunburgh,Saint Martin,IL,Illinois,City,31.5541,-90.8787,291,315557,126287,114018,1.74,Pacific/Los_Angeles
+422,Jessicabury,Saint Martin,WI,Wisconsin,City,39.2808,-95.0862,682,257918,107641,63570,0.31,Pacific/Los_Angeles
+423,Port Georgehaven,Niger,WY,Wyoming,Hamlet,39.0916,-75.5073,888,462582,227644,25860,3.64,Central/Chicago
+424,Jensenview,Norway,MA,Massachusetts,Town,41.8874,-92.1922,652,424375,193441,23796,1.1,Eastern/New_York
+425,Diazton,Djibouti,AR,Arkansas,Town,38.5647,-90.2245,897,203041,77920,61299,1.97,Eastern/New_York
+426,West Lisaburgh,Montenegro,IL,Illinois,CDP,41.6994,-77.8563,327,94497,33768,119761,2.55,Eastern/New_York
+427,Taylorstad,Barbados,NY,New York,City,33.0207,-83.5406,540,278419,111264,37788,4.32,Eastern/New_York
+428,Lake Nicoleshire,Saint Barthelemy,MO,Missouri,Town,38.3102,-68.0694,283,51098,22527,125308,3.24,Eastern/New_York
+429,East Whitneybury,Jamaica,NE,Nebraska,City,25.0737,-84.9017,919,341039,150551,118976,2.27,Central/Chicago
+430,Port Michaelbury,Congo,UT,Utah,CDP,35.4761,-115.5442,522,103319,40434,43496,3.48,Central/Chicago
+431,Lake Sean,Gibraltar,MS,Mississippi,Village,34.8215,-101.5667,395,98530,45689,55503,0.78,Central/Chicago
+432,Weaverport,Greenland,MD,Maryland,Hamlet,45.1942,-73.5854,854,279079,128903,27148,3.33,Central/Chicago
+433,Penningtonview,Guatemala,WI,Wisconsin,City,33.3958,-120.2842,904,423083,179111,116805,2.82,Pacific/Los_Angeles
+434,Christineshire,Uruguay,CA,California,CDP,42.6941,-113.9365,894,330834,114334,90230,1.17,Eastern/New_York
+435,Briannastad,Gambia,NJ,New Jersey,Hamlet,39.1863,-77.9646,821,166304,75822,93970,1.85,Mountain/Denver
+436,Dennisfurt,Kuwait,NH,New Hampshire,Village,35.0156,-86.865,720,286172,121144,30727,4.77,Eastern/New_York
+437,Adamborough,Mexico,WV,West Virginia,CDP,46.8231,-80.3052,415,311983,152337,140290,0.54,Central/Chicago
+438,Beasleyton,Libyan Arab Jamahiriya,HI,Hawaii,Hamlet,47.7521,-91.9524,301,278741,135574,98187,4.8,Eastern/New_York
+439,New Brandonville,Hungary,VT,Vermont,Town,43.2129,-77.1585,959,223907,80760,89009,2.82,Mountain/Denver
+440,Stevenchester,Paraguay,AR,Arkansas,Village,38.8746,-96.7919,452,389098,133765,101854,2.94,Central/Chicago
+441,Rebeccaborough,Brazil,WA,Washington,Village,31.3655,-106.4448,889,199474,68362,133792,3.83,Mountain/Denver
+442,Port Sarashire,Togo,ME,Maine,CDP,28.2318,-102.5097,680,68219,27336,148297,4.85,Mountain/Denver
+443,Benjaminborough,Uzbekistan,OH,Ohio,Hamlet,38.3362,-109.2662,420,418152,142323,117533,2.75,Pacific/Los_Angeles
+444,West Ashley,Guatemala,TN,Tennessee,Hamlet,42.7277,-93.7261,652,320905,117811,129867,0.52,Central/Chicago
+445,Roberttown,North Macedonia,SC,South Carolina,Town,28.8599,-91.5771,921,417941,157147,80023,0.74,Eastern/New_York
+446,Port Amandashire,Isle of Man,ME,Maine,City,33.1831,-122.6464,729,293762,116071,149608,4.71,Mountain/Denver
+447,Owensland,Grenada,DE,Delaware,Village,44.0527,-84.3316,287,481452,169540,90966,3.41,Central/Chicago
+448,South Angel,Vietnam,WY,Wyoming,CDP,26.8286,-106.5451,729,286332,130079,84780,3.23,Eastern/New_York
+449,North Jessica,Turks and Caicos Islands,TN,Tennessee,City,26.1045,-119.2681,682,261025,104694,76852,3.84,Central/Chicago
+450,West Michael,United States of America,VT,Vermont,City,41.727,-84.4229,964,474315,171442,79599,3.43,Central/Chicago
+451,Chrishaven,Wallis and Futuna,WI,Wisconsin,Village,29.8044,-98.5489,442,233133,111660,48227,1.43,Pacific/Los_Angeles
+452,Fryefurt,Indonesia,KY,Kentucky,Village,42.0859,-73.3878,518,36744,15145,138984,4.15,Eastern/New_York
+453,Williamsland,Latvia,LA,Louisiana,CDP,25.1686,-98.7421,362,395415,154635,97075,1.09,Pacific/Los_Angeles
+454,Scottburgh,Australia,NJ,New Jersey,Village,42.8959,-84.3172,277,17450,6328,63420,1.95,Central/Chicago
+455,Wilsonport,United States Minor Outlying Islands,SD,South Dakota,City,30.3728,-92.0652,509,119503,46225,73494,2.19,Pacific/Los_Angeles
+456,Stricklandburgh,Isle of Man,TX,Texas,Hamlet,34.4229,-77.1395,938,461272,171508,102393,2.45,Mountain/Denver
+457,Port Scott,Slovenia,ID,Idaho,Hamlet,42.5536,-104.7025,339,181003,80133,134777,2.24,Mountain/Denver
+458,East Jenniferville,Germany,DC,District of Columbia,Village,38.9458,-86.234,622,247508,84075,43179,4.86,Pacific/Los_Angeles
+459,West Kimberlymouth,Micronesia,MN,Minnesota,Hamlet,32.597,-90.8587,243,248538,122558,115040,0.67,Pacific/Los_Angeles
+460,South Johnmouth,Brazil,VT,Vermont,City,40.8093,-78.9459,408,148006,62311,105166,4.62,Central/Chicago
+461,Lake Jesseshire,Australia,OR,Oregon,Town,37.1977,-101.3068,529,493249,170725,107160,0.94,Pacific/Los_Angeles
+462,East Robert,Hungary,NE,Nebraska,Town,36.8832,-89.1816,298,16740,7612,66728,0.54,Pacific/Los_Angeles
+463,Lake Michelleville,Anguilla,WV,West Virginia,Hamlet,25.9345,-93.0219,508,188614,80338,64755,1.37,Pacific/Los_Angeles
+464,Lake Sheilashire,El Salvador,NY,New York,Town,43.3443,-94.066,914,257804,96373,131115,1.98,Central/Chicago
+465,Lake Theresa,Iran,NV,Nevada,Village,34.1229,-115.3066,434,5449,2024,51933,2.84,Central/Chicago
+466,South Wanda,Kiribati,NM,New Mexico,Village,29.7749,-124.4681,406,164333,52216,73385,3.1,Mountain/Denver
+467,Phillipfort,Belgium,IL,Illinois,Town,40.143,-123.6404,408,174791,82779,37903,3.14,Central/Chicago
+468,Jaredshire,Turks and Caicos Islands,NJ,New Jersey,Hamlet,35.5269,-111.998,417,20514,7849,48910,4.71,Pacific/Los_Angeles
+469,Jacobburgh,Brazil,TN,Tennessee,CDP,45.3509,-113.1152,592,341822,144785,137509,3.28,Pacific/Los_Angeles
+470,West Ashleyview,Vanuatu,MI,Michigan,CDP,39.9238,-96.3706,658,67059,30186,139268,4.16,Mountain/Denver
+471,Deniseland,Iceland,ND,North Dakota,Village,32.0725,-86.5292,600,329573,143670,42587,3.36,Central/Chicago
+472,North Eric,Croatia,VA,Virginia,City,27.8678,-91.3443,473,263437,115308,29928,4.18,Pacific/Los_Angeles
+473,Gonzalezton,Ecuador,OR,Oregon,Town,35.3715,-106.0583,734,449995,167572,46711,3.75,Eastern/New_York
+474,East Jessicaside,Bangladesh,WY,Wyoming,Hamlet,47.7221,-101.3753,229,178103,58995,57535,4.54,Pacific/Los_Angeles
+475,Tammyland,Belgium,DE,Delaware,City,41.5073,-89.3231,500,344201,162531,65078,1.92,Mountain/Denver
+476,Bauerfurt,Aruba,NJ,New Jersey,Town,46.9534,-77.8543,416,164702,55901,36406,1.65,Pacific/Los_Angeles
+477,Janetside,North Macedonia,MN,Minnesota,Village,45.2611,-101.8433,685,93935,29183,50717,0.88,Eastern/New_York
+478,Lake Luisborough,Serbia,MD,Maryland,CDP,45.2371,-97.9436,325,424734,176492,65472,1.76,Central/Chicago
+479,New Patrickstad,United States of America,VA,Virginia,Village,46.7556,-77.1571,304,405521,200862,87148,1.22,Mountain/Denver
+480,Lake Melanieton,Vietnam,AZ,Arizona,Village,33.91,-83.3724,426,109514,44284,126234,0.65,Central/Chicago
+481,North Geraldton,Norfolk Island,NH,New Hampshire,Town,31.5638,-95.7803,956,95557,29635,121692,0.44,Central/Chicago
+482,Stephaniemouth,Faroe Islands,MO,Missouri,City,33.9077,-99.4449,503,407371,150814,21550,1.97,Mountain/Denver
+483,Port Megan,United Kingdom,ID,Idaho,City,35.7207,-87.2392,296,46596,18075,48555,3.05,Central/Chicago
+484,West Troyshire,Togo,NJ,New Jersey,Hamlet,36.3782,-113.174,486,178672,68802,122910,0.79,Mountain/Denver
+485,Hawkinsburgh,Gibraltar,WA,Washington,CDP,41.9916,-67.5751,657,169848,56610,53191,0.25,Pacific/Los_Angeles
+486,Lake Mark,Czech Republic,HI,Hawaii,City,26.6228,-114.8333,996,181398,84622,143946,1.22,Mountain/Denver
+487,Castroside,Philippines,PR,Puerto Rico,Village,35.7345,-118.5322,595,311780,109072,66200,1.02,Central/Chicago
+488,Lake Christopherberg,Lebanon,OK,Oklahoma,Village,47.1336,-98.0617,475,205651,89752,45932,1.85,Mountain/Denver
+489,New Kevin,Moldova,NM,New Mexico,CDP,29.3103,-73.8179,894,496889,197148,63278,0.44,Pacific/Los_Angeles
+490,Sydneyville,Cote d'Ivoire,NE,Nebraska,Town,25.3916,-87.7482,691,325988,152793,103466,2.49,Eastern/New_York
+491,Whitechester,Nepal,MA,Massachusetts,Village,39.2914,-114.3717,419,93229,33477,22905,1.05,Central/Chicago
+492,East Robertside,Albania,TX,Texas,CDP,46.155,-80.1404,647,37064,16490,58404,1.72,Eastern/New_York
+493,Hartmanfurt,Luxembourg,LA,Louisiana,Village,47.0788,-82.9925,981,183272,90504,107032,4.7,Central/Chicago
+494,Murphyshire,Croatia,SC,South Carolina,Town,29.7333,-95.5296,592,296924,110458,111461,3.7,Mountain/Denver
+495,Port Stephanie,Spain,OH,Ohio,City,32.5293,-96.0778,972,453736,189208,58853,4.08,Eastern/New_York
+496,Cruzland,Anguilla,AK,Alaska,Village,37.6838,-78.7601,893,29650,9655,63724,2.59,Mountain/Denver
+497,East Rebekahshire,Marshall Islands,ME,Maine,Town,27.0848,-119.8423,270,6425,3133,121976,1.91,Eastern/New_York
+498,Port Jacob,Georgia,MI,Michigan,Hamlet,33.5862,-105.207,864,493982,198078,40410,0.22,Eastern/New_York
+499,Lake Christyshire,Saint Martin,PR,Puerto Rico,City,27.0259,-84.2324,372,389564,188713,103924,4.73,Central/Chicago
+500,North Jason,Jamaica,LA,Louisiana,Town,36.5416,-113.0455,926,425815,208094,64017,4.92,Eastern/New_York
+501,Lake Juliefurt,Bulgaria,AL,Alabama,Town,41.6721,-75.4118,796,75419,26614,115049,0.11,Central/Chicago
+502,Crosston,Syrian Arab Republic,NV,Nevada,Town,34.4678,-104.5548,992,3437,1209,33048,1.28,Pacific/Los_Angeles
+503,Haleyshire,New Caledonia,AL,Alabama,City,48.7183,-102.4458,523,89781,42877,133112,2.27,Eastern/New_York
+504,New Katrina,Liechtenstein,SC,South Carolina,Town,48.6742,-104.2793,671,120725,54129,128660,4.87,Mountain/Denver
+505,West Stevenshire,Tanzania,MS,Mississippi,Town,25.8974,-96.8528,986,31123,11588,33797,2.67,Eastern/New_York
+506,Laurenberg,Turkey,WY,Wyoming,Town,41.255,-90.3699,580,116838,53619,64638,4.41,Pacific/Los_Angeles
+507,Rebekahville,Singapore,CT,Connecticut,CDP,28.1766,-83.3416,761,236226,116814,140606,4.61,Eastern/New_York
+508,South Davidfort,Marshall Islands,PR,Puerto Rico,Village,40.1556,-78.4239,978,421637,170457,98751,4.9,Pacific/Los_Angeles
+509,Ericafurt,Turkey,FL,Florida,CDP,29.0573,-78.1865,953,180471,55714,134797,1.29,Mountain/Denver
+510,Port Jacqueline,Bulgaria,WV,West Virginia,Village,29.7431,-106.7718,562,322836,157432,40083,0.38,Pacific/Los_Angeles
+511,Gravesstad,Suriname,ME,Maine,Town,38.3647,-106.0182,228,463056,172046,44353,4.98,Central/Chicago
+512,Port Jimmyside,Canada,OK,Oklahoma,Village,33.3311,-107.5541,499,20280,6574,77916,3.81,Eastern/New_York
+513,Dorothyberg,Saint Kitts and Nevis,AR,Arkansas,Town,36.79,-106.1847,807,482023,196994,87824,0.32,Eastern/New_York
+514,West Antonio,Ecuador,VA,Virginia,Hamlet,45.6666,-82.2129,898,408498,126444,80295,1.91,Mountain/Denver
+515,Christopherburgh,Australia,ND,North Dakota,Town,48.831,-114.9923,903,236967,78911,96310,4.47,Central/Chicago
+516,New Stacytown,Albania,AZ,Arizona,CDP,41.9205,-122.7376,648,451997,200005,148084,0.63,Central/Chicago
+517,New Christopher,Nepal,IA,Iowa,Hamlet,26.5615,-105.4027,200,445780,194657,122830,4,Pacific/Los_Angeles
+518,Costaville,Bangladesh,DC,District of Columbia,Town,35.6128,-82.7738,291,192221,87980,122739,4.75,Mountain/Denver
+519,Jamesville,Puerto Rico,VA,Virginia,City,35.7943,-112.8852,426,63094,21312,69562,4.56,Eastern/New_York
+520,Wilsonborough,Hong Kong,CT,Connecticut,CDP,40.1752,-117.7637,843,106474,46298,97171,1.38,Central/Chicago
+521,Katrinaside,Chile,SC,South Carolina,City,32.2176,-90.7315,815,422382,168665,78832,0.84,Eastern/New_York
+522,Cherylchester,Tajikistan,NM,New Mexico,Town,26.1429,-94.0121,700,240898,73314,82702,2.03,Eastern/New_York
+523,New Karen,Cook Islands,OK,Oklahoma,Village,34.6499,-96.5086,321,491208,192277,29160,2.85,Pacific/Los_Angeles
+524,New Veronica,Kiribati,OH,Ohio,City,34.6798,-84.5393,253,355087,160628,140856,0.11,Eastern/New_York
+525,Port Preston,Russian Federation,WI,Wisconsin,Village,37.0007,-79.9014,658,218642,95170,99432,2.42,Mountain/Denver
+526,North Kurtview,Saint Helena,AK,Alaska,Hamlet,30.2553,-117.0383,292,422802,159460,37871,2.2,Eastern/New_York
+527,Davilaton,Germany,VT,Vermont,City,27.3546,-68.9917,625,225770,111529,74380,3.16,Eastern/New_York
+528,Lake Karenview,New Zealand,NJ,New Jersey,Town,25.9343,-79.9727,456,323641,161677,57051,4.22,Eastern/New_York
+529,Wintersborough,British Virgin Islands,VT,Vermont,Town,46.9369,-94.0659,997,457648,164461,109590,1.26,Eastern/New_York
+530,West Kennethborough,Poland,MN,Minnesota,City,31.4977,-78.9538,780,41160,18415,112357,1.6,Central/Chicago
+531,West Richardberg,San Marino,NE,Nebraska,City,33.7855,-102.2812,342,374911,155252,49146,1.23,Mountain/Denver
+532,South Lorichester,Jamaica,KS,Kansas,Hamlet,38.0077,-91.7804,818,139062,69288,41971,1.5,Pacific/Los_Angeles
+533,Howardton,France,DE,Delaware,Hamlet,31.9014,-80.2127,825,138091,46641,76812,2.14,Eastern/New_York
+534,Jaredborough,Guatemala,PA,Pennsylvania,Village,34.8235,-95.9286,375,64628,26028,103684,1.16,Mountain/Denver
+535,Lake Gregoryland,Nigeria,IN,Indiana,Hamlet,37.3106,-116.9474,443,140761,65769,72741,4.3,Mountain/Denver
+536,Kirktown,Ethiopia,KY,Kentucky,Town,29.1549,-79.3258,808,327844,141994,98908,4,Central/Chicago
+537,West Georgemouth,Luxembourg,DC,District of Columbia,CDP,45.1748,-100.382,832,191134,69152,144986,3.05,Central/Chicago
+538,Carterview,Ethiopia,CO,Colorado,Town,38.8342,-97.2243,871,257725,98172,131752,4.99,Pacific/Los_Angeles
+539,North Elizabeth,Honduras,NH,New Hampshire,Village,34.8163,-79.9215,554,179245,75305,77739,0.28,Pacific/Los_Angeles
+540,Andrewsville,Saudi Arabia,ID,Idaho,CDP,29.5132,-112.9235,310,152171,75175,84809,4.08,Eastern/New_York
+541,Johnsonhaven,Belize,ND,North Dakota,CDP,31.8611,-90.6657,382,93911,31745,143457,1.23,Central/Chicago
+542,Ellisburgh,Malta,TX,Texas,City,47.3856,-71.1279,659,310752,134135,119101,3.75,Central/Chicago
+543,New Makaylafurt,Bosnia and Herzegovina,IA,Iowa,Town,26.8579,-71.888,267,245580,117050,56026,1.72,Mountain/Denver
+544,Tinaside,Korea,WY,Wyoming,City,37.1624,-109.5759,375,407808,135061,98433,2.32,Pacific/Los_Angeles
+545,Ericshire,United States Minor Outlying Islands,KS,Kansas,CDP,30.8953,-88.6566,213,336029,122656,126701,4.16,Mountain/Denver
+546,Sarahstad,Zimbabwe,MD,Maryland,Town,39.8264,-93.9073,445,404819,168472,47118,3.08,Eastern/New_York
+547,Nelsonhaven,Tokelau,NM,New Mexico,City,29.9406,-69.5408,339,349365,167986,146653,3.64,Mountain/Denver
+548,Lake Michelle,Congo,MD,Maryland,Village,38.6971,-121.8091,613,244867,104481,42966,4.87,Central/Chicago
+549,North Marcohaven,Saint Lucia,AZ,Arizona,Hamlet,40.752,-92.2062,577,74116,29460,105789,4.88,Mountain/Denver
+550,Wilsonport,Palestinian Territory,MD,Maryland,Village,32.1977,-112.0418,963,385026,121556,146244,4.14,Pacific/Los_Angeles
+551,West Chelseaview,Faroe Islands,OK,Oklahoma,Village,30.1165,-119.9116,873,66233,31478,25316,4.59,Mountain/Denver
+552,West Danielville,Togo,MA,Massachusetts,Village,44.7705,-122.3798,299,47464,20219,48206,1.67,Central/Chicago
+553,Frankbury,Korea,KS,Kansas,Village,37.3731,-115.8391,915,287291,92225,145878,2.71,Central/Chicago
+554,New Desireemouth,Albania,CO,Colorado,Village,46.8772,-122.6295,829,435950,151994,24573,2.01,Mountain/Denver
+555,Ortizview,Azerbaijan,IN,Indiana,Hamlet,29.4756,-102.925,785,8692,2887,53709,3.16,Pacific/Los_Angeles
+556,South Donnachester,Portugal,OH,Ohio,City,32.952,-102.8191,806,161028,74967,129471,2.36,Eastern/New_York
+557,Kelleystad,British Indian Ocean Territory (Chagos Archipelago),MS,Mississippi,Hamlet,44.647,-97.6345,619,233236,114186,42629,1.6,Mountain/Denver
+558,South Josephshire,Slovenia,TN,Tennessee,Town,41.2803,-73.2389,362,74478,30034,66025,1.21,Eastern/New_York
+559,Malonehaven,Turkmenistan,SD,South Dakota,CDP,27.2196,-104.9929,876,270476,106879,140941,4.33,Mountain/Denver
+560,Princemouth,Papua New Guinea,MO,Missouri,City,48.5847,-71.4204,377,184977,72879,23492,2.42,Pacific/Los_Angeles
+561,South Brian,Netherlands,NV,Nevada,Village,37.5708,-91.5949,967,415769,176029,134971,1.8,Pacific/Los_Angeles
+562,Michelleport,Bolivia,NV,Nevada,Town,31.9112,-112.1104,528,480109,179463,111968,2.36,Pacific/Los_Angeles
+563,South Mariahhaven,Panama,CO,Colorado,Village,44.2258,-98.9701,505,418689,137595,138520,3.93,Mountain/Denver
+564,Stephanietown,Tuvalu,VA,Virginia,Town,38.2121,-77.4055,221,256912,100564,99474,0.32,Central/Chicago
+565,West Ryan,Netherlands Antilles,MS,Mississippi,Town,45.8556,-116.4254,453,390798,166587,62248,1.61,Pacific/Los_Angeles
+566,South Alfredfort,Isle of Man,FL,Florida,Village,36.0374,-74.187,369,336145,118395,40241,2.53,Central/Chicago
+567,South Victoriaside,Cape Verde,MO,Missouri,Town,37.3403,-85.427,364,134418,59672,88668,4.64,Pacific/Los_Angeles
+568,West Lisamouth,Portugal,MS,Mississippi,Village,48.1979,-76.1393,825,374274,118688,75832,1.1,Central/Chicago
+569,South Lindsay,Chad,NJ,New Jersey,Town,37.7844,-105.8678,583,264039,101876,30029,1.99,Central/Chicago
+570,Arroyoport,Martinique,KS,Kansas,Town,45.3769,-79.1582,528,320640,127789,31184,4.89,Mountain/Denver
+571,Larsonton,Nigeria,TN,Tennessee,Town,38.7163,-99.9193,830,173972,66750,111672,4.8,Central/Chicago
+572,East Jon,Gabon,MN,Minnesota,Village,27.9815,-119.1938,693,486778,185938,117512,2.85,Eastern/New_York
+573,Tylerborough,Montserrat,LA,Louisiana,Village,41.8904,-76.2555,491,104590,49947,128576,0.43,Eastern/New_York
+574,Sullivanfurt,French Guiana,NJ,New Jersey,Village,44.7333,-117.7527,798,92201,37303,82056,2.22,Central/Chicago
+575,Jessicamouth,Belize,KS,Kansas,Town,35.7844,-72.7105,819,343284,119066,28076,0.15,Pacific/Los_Angeles
+576,East Tanya,Portugal,WV,West Virginia,Village,34.1287,-76.6444,705,45149,18533,69835,3.24,Eastern/New_York
+577,Mistyville,Guyana,AK,Alaska,Village,35.7532,-111.2984,881,149210,49255,146774,0.42,Central/Chicago
+578,North Jennifer,Chile,NH,New Hampshire,City,27.3154,-104.2292,900,107177,39228,28168,4.2,Eastern/New_York
+579,East Kevin,Dominica,NM,New Mexico,Hamlet,40.8952,-78.2701,303,59785,20376,134214,0.72,Eastern/New_York
+580,Terrymouth,Jersey,NV,Nevada,City,31.313,-114.8971,470,457462,196954,87163,4.32,Mountain/Denver
+581,Lake Amy,Albania,NE,Nebraska,CDP,27.5435,-91.2985,205,90701,35058,99128,4.26,Central/Chicago
+582,Taylormouth,Fiji,LA,Louisiana,Village,32.0401,-89.7722,897,32255,16010,65800,3.25,Mountain/Denver
+583,Brucetown,Nauru,OR,Oregon,Town,38.8475,-102.5223,537,13286,4978,69408,4.48,Eastern/New_York
+584,Lake Ryan,North Macedonia,MI,Michigan,Hamlet,40.2516,-106.6993,830,308503,149863,131523,2.59,Eastern/New_York
+585,Olsenborough,Argentina,NY,New York,City,46.4324,-80.8903,237,219350,74219,131507,1.32,Eastern/New_York
+586,West Robintown,Grenada,NJ,New Jersey,CDP,43.8265,-117.1258,845,496117,207991,145668,2.83,Eastern/New_York
+587,Andersonmouth,Iceland,WV,West Virginia,CDP,44.9689,-115.2056,780,87533,34398,96169,0.56,Eastern/New_York
+588,Josephfurt,Estonia,NC,North Carolina,Hamlet,38.8973,-119.6462,970,75522,32104,60609,0.41,Eastern/New_York
+589,North Angela,Lithuania,IL,Illinois,Village,34.1481,-81.0096,867,168295,83781,108486,0.84,Eastern/New_York
+590,Rodriguezberg,French Guiana,ME,Maine,City,30.1028,-75.6897,463,411328,186965,132026,0.81,Eastern/New_York
+591,Scottmouth,Yemen,SD,South Dakota,Hamlet,35.732,-114.175,702,339115,150584,71392,2.99,Pacific/Los_Angeles
+592,New Valeriefurt,Guernsey,ID,Idaho,CDP,47.0631,-122.993,240,486416,149522,130410,2.4,Pacific/Los_Angeles
+593,Higginsview,Indonesia,TN,Tennessee,CDP,45.4206,-105.5008,903,115770,53258,112762,3.9,Eastern/New_York
+594,Lake Christina,Andorra,CA,California,City,42.8928,-67.6952,662,52348,21694,106339,4.68,Mountain/Denver
+595,Claudiaberg,Mali,MN,Minnesota,CDP,32.5562,-81.7609,237,480686,163488,86282,4.92,Pacific/Los_Angeles
+596,Sarahville,Guatemala,MS,Mississippi,CDP,40.8232,-118.9773,617,130081,57292,54314,3.12,Eastern/New_York
+597,New Kevinbury,Maldives,MN,Minnesota,Village,40.139,-103.0717,970,404784,163094,115986,3.52,Mountain/Denver
+598,Walkerberg,Latvia,KY,Kentucky,City,44.4728,-117.0491,713,163645,74138,21630,1.24,Mountain/Denver
+599,Duaneburgh,Korea,AZ,Arizona,Town,36.1748,-102.3568,282,206639,92020,70138,2.1,Eastern/New_York
+600,North Jeffreyport,Switzerland,AK,Alaska,Town,46.0519,-117.6105,507,189659,86161,140368,4.92,Mountain/Denver
+601,West Allenfort,Aruba,IA,Iowa,Hamlet,37.8663,-91.2505,351,464372,153640,33335,2.75,Mountain/Denver
+602,West Dennisville,Belarus,PR,Puerto Rico,Town,25.067,-122.8491,345,222325,93590,23288,1.16,Central/Chicago
+603,Lake Andrewport,Somalia,LA,Louisiana,Village,28.3969,-116.3703,507,56373,19387,39398,0.54,Pacific/Los_Angeles
+604,Port Kevinburgh,Kenya,ME,Maine,Town,45.2549,-119.1961,308,315860,146781,26948,4.1,Eastern/New_York
+605,Jennifershire,Namibia,PR,Puerto Rico,CDP,28.6448,-108.0005,524,115197,40587,77104,2.41,Eastern/New_York
+606,North Danielland,Czech Republic,AZ,Arizona,Town,48.6648,-85.4062,564,405454,200932,23814,3.03,Central/Chicago
+607,Lydiaton,Romania,MD,Maryland,Town,38.016,-121.1366,333,346104,148700,64723,3.53,Eastern/New_York
+608,East Michaelchester,United States Virgin Islands,LA,Louisiana,Hamlet,40.3171,-101.4641,848,382841,160488,138935,1.27,Mountain/Denver
+609,Watsonstad,France,NE,Nebraska,Town,48.6453,-69.1817,700,28469,10049,64261,4.18,Central/Chicago
+610,Blackfort,Tonga,IN,Indiana,Village,39.2458,-111.0449,740,331460,100001,148389,4.95,Pacific/Los_Angeles
+611,East Brianfort,Malta,RI,Rhode Island,Hamlet,39.6877,-105.259,675,287556,120988,29735,2.3,Pacific/Los_Angeles
+612,Rodriguezbury,Mauritania,LA,Louisiana,CDP,36.3813,-114.2482,498,66562,28458,112048,0.4,Central/Chicago
+613,Penaview,Western Sahara,PA,Pennsylvania,City,44.8818,-87.0154,343,172165,58771,66300,4.51,Mountain/Denver
+614,Josephshire,Botswana,HI,Hawaii,Village,44.5545,-74.3618,944,95956,42394,55093,2.18,Pacific/Los_Angeles
+615,West Elizabethland,Greece,KS,Kansas,CDP,41.6904,-70.7205,691,278093,121933,84247,1.53,Eastern/New_York
+616,Joshuaborough,Azerbaijan,IN,Indiana,Village,32.1403,-112.4528,808,87229,32694,66830,2.63,Pacific/Los_Angeles
+617,Jacksonshire,Morocco,WA,Washington,Village,30.2906,-81.2997,827,265898,96152,118911,1.91,Mountain/Denver
+618,Annaville,Croatia,AK,Alaska,CDP,30.8389,-72.9858,666,425392,185023,59728,3.6,Mountain/Denver
+619,Brandonburgh,Cambodia,MS,Mississippi,CDP,40.7431,-98.8688,476,387255,130768,87780,3.47,Mountain/Denver
+620,Lake Sierrashire,Jersey,MA,Massachusetts,City,25.255,-94.5437,997,20784,9627,137323,2.86,Central/Chicago
+621,Port Jay,Bangladesh,OH,Ohio,CDP,47.011,-73.9738,892,144634,47034,83984,2.42,Eastern/New_York
+622,Davidmouth,Turkey,NJ,New Jersey,Hamlet,31.3254,-115.8188,908,251527,115038,90680,0.48,Pacific/Los_Angeles
+623,North Jose,Angola,DE,Delaware,Town,41.5669,-79.8865,899,176850,58627,94787,3.24,Central/Chicago
+624,Jasonshire,Palestinian Territory,CT,Connecticut,Hamlet,28.9735,-97.2044,932,29654,9049,66225,2.27,Pacific/Los_Angeles
+625,Thomasstad,Fiji,OR,Oregon,Hamlet,47.0078,-72.4445,898,24862,12193,60823,1.55,Pacific/Los_Angeles
+626,New Ronnie,Japan,RI,Rhode Island,Hamlet,26.4405,-79.6474,924,434894,130614,64769,4.99,Mountain/Denver
+627,Donnamouth,French Polynesia,WA,Washington,City,46.6931,-114.2372,673,115795,46809,142770,3.34,Pacific/Los_Angeles
+628,South Shelly,French Polynesia,CT,Connecticut,Hamlet,27.3968,-103.4092,629,465236,209107,51588,4.95,Mountain/Denver
+629,South Erin,Ukraine,IN,Indiana,Town,45.4649,-95.9074,748,42146,14823,53760,4.32,Pacific/Los_Angeles
+630,New Richard,Honduras,DC,District of Columbia,Hamlet,27.8878,-98.8925,597,481047,185412,127933,3.61,Eastern/New_York
+631,Curtisberg,Bermuda,MA,Massachusetts,Town,29.6834,-112.631,789,297539,112177,91823,2.6,Central/Chicago
+632,Benjaminborough,Antigua and Barbuda,AZ,Arizona,Hamlet,48.4601,-75.862,388,417972,145053,93677,3.29,Central/Chicago
+633,South Justin,British Indian Ocean Territory (Chagos Archipelago),AL,Alabama,Village,40.4673,-124.2605,988,6347,2904,30243,3.04,Eastern/New_York
+634,Gardnerside,Turks and Caicos Islands,PA,Pennsylvania,Hamlet,47.7781,-123.3778,455,287981,113125,54019,2.29,Eastern/New_York
+635,Port Karen,Montenegro,CA,California,CDP,44.7931,-86.6147,414,140615,59040,145296,0.19,Central/Chicago
+636,Anthonyborough,Estonia,AK,Alaska,City,42.0018,-120.0391,333,319361,102785,144376,0.67,Mountain/Denver
+637,Port Heather,Qatar,WV,West Virginia,Town,36.6795,-67.5351,347,407955,148266,38303,0.22,Eastern/New_York
+638,Port Charlesmouth,Honduras,NE,Nebraska,Town,39.1735,-111.7486,331,214463,90125,115632,4.76,Eastern/New_York
+639,Gloverberg,Tokelau,NY,New York,City,39.2036,-67.333,666,57334,24452,20276,1.51,Central/Chicago
+640,South Justintown,Heard Island and McDonald Islands,AK,Alaska,Hamlet,35.3614,-89.3536,974,447358,155561,79366,1.09,Central/Chicago
+641,West David,Falkland Islands (Malvinas),MS,Mississippi,Town,40.4516,-100.0769,516,52094,17915,51945,3.29,Eastern/New_York
+642,West Rebeccaland,Albania,CA,California,Town,27.563,-122.4356,494,488081,190821,90580,0.98,Eastern/New_York
+643,Adkinston,Saint Helena,NE,Nebraska,Hamlet,34.0094,-84.5607,853,318201,150744,54382,4.72,Mountain/Denver
+644,Jenkinsville,Fiji,MI,Michigan,City,43.2128,-91.8796,337,183374,80878,90740,4.57,Mountain/Denver
+645,East Ronald,Algeria,MT,Montana,City,41.4491,-101.9241,721,170420,57456,98846,4.61,Central/Chicago
+646,Tylerfurt,Kiribati,CA,California,Village,40.9106,-99.0335,853,37457,12976,132524,2.17,Pacific/Los_Angeles
+647,Carlashire,Denmark,FL,Florida,Town,36.6897,-110.9598,865,297154,146953,99362,3.01,Eastern/New_York
+648,West Markview,Slovenia,DE,Delaware,Village,31.3077,-109.2573,921,218278,106859,133033,1.58,Mountain/Denver
+649,Maryville,Guatemala,HI,Hawaii,City,37.0889,-73.5461,231,145463,55295,106194,4.69,Central/Chicago
+650,Miguelport,Portugal,WA,Washington,Hamlet,48.4292,-94.6292,950,347478,140875,120947,4.12,Mountain/Denver
+651,South David,Philippines,AR,Arkansas,CDP,43.6345,-117.9614,724,260373,97459,68697,1.82,Pacific/Los_Angeles
+652,Mcmahonport,Sierra Leone,ID,Idaho,Village,29.6807,-76.3257,309,44349,13658,87999,1.14,Mountain/Denver
+653,Wilsonshire,Aruba,VA,Virginia,Hamlet,44.597,-115.0288,637,437211,174333,128269,2.13,Pacific/Los_Angeles
+654,Port Sarahland,Djibouti,MI,Michigan,City,25.4185,-69.7811,619,208320,100507,107284,0.96,Pacific/Los_Angeles
+655,East Pamela,Bolivia,OH,Ohio,Town,38.2342,-99.2829,608,155788,61371,97327,1.94,Eastern/New_York
+656,Carolbury,Mozambique,AL,Alabama,CDP,45.4642,-90.9496,945,88970,29724,102032,3.34,Eastern/New_York
+657,South Rebeccaland,North Macedonia,IN,Indiana,CDP,34.2502,-109.5191,948,83398,30381,66449,2.34,Mountain/Denver
+658,North Christinefurt,Belarus,AR,Arkansas,City,30.2742,-87.5403,448,141801,53703,84252,1.92,Mountain/Denver
+659,Davidmouth,Kyrgyz Republic,KY,Kentucky,Hamlet,26.9813,-107.0414,295,262552,127942,129038,0.65,Central/Chicago
+660,Port Brentburgh,Fiji,ND,North Dakota,City,27.1941,-124.0776,816,396936,176729,23024,4.88,Pacific/Los_Angeles
+661,Victorburgh,China,AK,Alaska,Town,33.5288,-76.6465,800,447437,161540,132140,3.65,Pacific/Los_Angeles
+662,Rodriguezfort,Austria,TN,Tennessee,Town,30.2832,-102.411,804,41019,18692,114640,2.72,Pacific/Los_Angeles
+663,Lake Michaelborough,Ecuador,MA,Massachusetts,Town,46.3979,-70.4872,380,278711,110919,83025,3.1,Pacific/Los_Angeles
+664,East Misty,Jersey,OR,Oregon,City,37.5052,-75.3355,576,447742,213297,110420,0.11,Pacific/Los_Angeles
+665,Woodardburgh,Slovakia (Slovak Republic),ME,Maine,Village,43.7243,-88.5516,234,290390,136709,123471,3.83,Pacific/Los_Angeles
+666,Aguilarton,Luxembourg,AK,Alaska,Town,48.5519,-122.804,866,432683,162691,136552,3.3,Mountain/Denver
+667,West Kayla,United States of America,PA,Pennsylvania,Hamlet,46.643,-105.7959,238,447992,199898,127456,4.16,Pacific/Los_Angeles
+668,South Josephview,Myanmar,MA,Massachusetts,CDP,26.7254,-79.1202,966,254912,91485,40918,3.08,Mountain/Denver
+669,North Patriciaview,Estonia,WI,Wisconsin,City,36.2526,-102.1895,506,131501,50873,111508,1.38,Pacific/Los_Angeles
+670,North Angela,Norfolk Island,TX,Texas,Town,48.4106,-119.9457,957,342906,123903,24171,3.66,Pacific/Los_Angeles
+671,Jennifermouth,Mongolia,ME,Maine,Hamlet,37.8803,-122.9172,831,411748,201857,80052,2.84,Central/Chicago
+672,Meganchester,Guernsey,CA,California,Village,25.8345,-76.1509,492,492921,214482,101069,3.54,Pacific/Los_Angeles
+673,North Daniel,Singapore,AL,Alabama,Village,28.6838,-117.8772,396,235768,96574,104283,1.98,Eastern/New_York
+674,Amberhaven,Congo,NE,Nebraska,CDP,40.0178,-95.9219,562,183748,73608,146510,0.89,Central/Chicago
+675,Edwardchester,Benin,HI,Hawaii,Village,35.9113,-119.084,687,281932,129855,117640,4.68,Mountain/Denver
+676,Angelahaven,Northern Mariana Islands,NJ,New Jersey,City,35.3596,-86.7321,804,425512,192336,128836,4.15,Central/Chicago
+677,Jimmychester,Saint Lucia,NM,New Mexico,Town,30.3397,-70.9647,409,449677,217392,54882,0.62,Central/Chicago
+678,Davidberg,Saudi Arabia,UT,Utah,Village,42.7451,-119.6134,798,288904,96078,142734,4.5,Mountain/Denver
+679,Johnton,Spain,NE,Nebraska,Village,42.7352,-121.9123,326,116647,38087,73866,0.24,Mountain/Denver
+680,South Jacob,Australia,AK,Alaska,Hamlet,42.3161,-89.1521,213,408446,203780,92870,3.31,Central/Chicago
+681,East Elizabethland,Congo,NV,Nevada,Town,46.4023,-104.2989,926,315170,121323,49659,2.73,Eastern/New_York
+682,East Heather,Cayman Islands,MN,Minnesota,City,36.7503,-84.8605,447,374545,177777,111094,1.12,Central/Chicago
+683,Nathanburgh,British Virgin Islands,CT,Connecticut,City,25.0434,-107.6936,871,457157,150791,65004,2.3,Central/Chicago
+684,West Jackchester,Uzbekistan,NH,New Hampshire,Town,46.2554,-122.2164,328,128964,57559,138058,1.82,Mountain/Denver
+685,Morrisonville,Belgium,NC,North Carolina,Hamlet,33.4199,-123.1361,665,278758,119601,29636,4.61,Eastern/New_York
+686,New Hannah,Ireland,WI,Wisconsin,City,29.7412,-86.0834,495,408351,153721,132473,4.07,Eastern/New_York
+687,West Davidstad,Eritrea,PA,Pennsylvania,CDP,47.0119,-92.6582,619,366932,111077,122378,0.71,Eastern/New_York
+688,North Charlesfort,Cape Verde,NV,Nevada,Village,32.2821,-70.3095,766,19188,7717,89528,3.91,Central/Chicago
+689,North Heatherfort,Malaysia,AK,Alaska,Hamlet,29.8831,-73.7379,589,75584,23367,31792,0.9,Pacific/Los_Angeles
+690,Wattschester,Mayotte,OK,Oklahoma,Town,47.9075,-95.7563,533,113797,37128,78826,2.23,Eastern/New_York
+691,New Jamesside,Australia,AK,Alaska,Village,48.9357,-76.3932,310,299827,106725,146169,0.8,Pacific/Los_Angeles
+692,Jamesview,Qatar,VT,Vermont,Hamlet,42.7604,-84.5362,635,130387,49606,134204,1.23,Pacific/Los_Angeles
+693,Beasleyborough,Iraq,WA,Washington,Town,32.297,-84.8348,346,140897,65815,94748,0.16,Eastern/New_York
+694,New Christopher,Turks and Caicos Islands,VA,Virginia,Town,30.7537,-83.3232,248,231204,76822,132859,2.2,Central/Chicago
+695,Fowlerberg,Kiribati,MI,Michigan,Village,39.1792,-107.8421,477,127019,38782,141285,2.87,Pacific/Los_Angeles
+696,Natalieland,Western Sahara,RI,Rhode Island,City,33.0713,-91.7022,953,185009,81294,24342,1.63,Pacific/Los_Angeles
+697,Lake Thomasmouth,Libyan Arab Jamahiriya,IN,Indiana,City,25.1591,-92.0965,961,302855,150459,63342,4.29,Eastern/New_York
+698,Michelleton,Norway,WY,Wyoming,Town,46.5138,-70.7866,914,334653,131255,22684,2.28,Central/Chicago
+699,New Susan,Grenada,IA,Iowa,Village,46.6416,-118.0089,792,307184,100307,53075,3.96,Eastern/New_York
+700,New Franklinfurt,Guam,DC,District of Columbia,Village,28.4251,-99.0716,321,10498,3539,43556,3.82,Central/Chicago
+701,East Matthew,Antarctica (the territory South of 60 deg S),MO,Missouri,Village,41.6655,-90.9147,987,467050,218571,60889,4.85,Eastern/New_York
+702,Dennishaven,Pitcairn Islands,UT,Utah,Village,28.7045,-99.6581,972,4118,1609,72505,4.34,Eastern/New_York
+703,North Lorettaburgh,Ghana,OK,Oklahoma,City,34.9911,-118.4789,452,455457,141023,118585,0.35,Central/Chicago
+704,Raymondport,Bangladesh,MT,Montana,City,31.4262,-88.4533,368,348400,160190,56697,4.3,Pacific/Los_Angeles
+705,West John,United States Virgin Islands,SD,South Dakota,CDP,44.6289,-99.4515,680,431004,211274,36529,3.09,Pacific/Los_Angeles
+706,Georgeton,Palestinian Territory,SC,South Carolina,Village,33.9175,-103.2096,870,101328,35929,88174,3.36,Central/Chicago
+707,Susanview,Saint Barthelemy,KS,Kansas,Village,47.029,-94.2917,276,51672,22093,111963,1.54,Eastern/New_York
+708,Ianhaven,United States of America,NC,North Carolina,City,26.413,-92.2603,428,80148,34143,72087,2.08,Central/Chicago
+709,West Paul,Cayman Islands,PA,Pennsylvania,City,39.697,-112.0532,458,187654,79741,100065,2.59,Pacific/Los_Angeles
+710,East Veronica,Cocos (Keeling) Islands,ND,North Dakota,City,31.5623,-103.4496,572,135996,53148,86776,0.8,Mountain/Denver
+711,Tiffanymouth,Pakistan,NH,New Hampshire,City,35.0346,-109.9457,802,295825,144722,39001,4.96,Pacific/Los_Angeles
+712,Thompsonburgh,Cook Islands,NJ,New Jersey,Hamlet,48.8294,-79.4603,559,294628,96293,114575,3.72,Mountain/Denver
+713,West Charles,Pakistan,DC,District of Columbia,City,27.5957,-92.9917,299,320799,137848,82588,2.72,Central/Chicago
+714,Moranmouth,Guatemala,SC,South Carolina,City,41.1019,-96.3388,900,59710,19815,84153,2.03,Pacific/Los_Angeles
+715,Jenniferbury,Colombia,WI,Wisconsin,CDP,36.5786,-92.7626,951,85874,39272,73748,1.19,Eastern/New_York
+716,West Amberstad,Lithuania,WV,West Virginia,City,27.4717,-80.4864,633,139161,56320,89916,0.42,Eastern/New_York
+717,North Donnashire,Western Sahara,KY,Kentucky,Town,44.2778,-83.8454,643,483015,153952,75281,1.05,Mountain/Denver
+718,Port Katherineville,Nicaragua,AK,Alaska,Hamlet,44.479,-118.5213,494,388195,143569,149231,1.52,Eastern/New_York
+719,West Samanthabury,Saint Martin,OR,Oregon,Village,41.0533,-93.802,396,200184,88439,75045,1.67,Pacific/Los_Angeles
+720,Port Robert,Kuwait,ND,North Dakota,Village,34.0606,-106.6065,952,13099,4839,53761,2.54,Central/Chicago
+721,North Jenniferchester,Portugal,NJ,New Jersey,Village,30.0129,-119.7144,379,182617,59466,35435,2.46,Central/Chicago
+722,Hillside,Ukraine,DE,Delaware,CDP,28.5777,-89.596,831,170226,55869,72469,3.02,Central/Chicago
+723,Brandonside,Bahrain,WY,Wyoming,City,41.3648,-68.9215,595,274528,120367,27122,2.25,Eastern/New_York
+724,Bethanytown,Yemen,WV,West Virginia,CDP,27.8339,-114.241,247,467470,228189,37584,1.67,Mountain/Denver
+725,East Justin,Marshall Islands,ID,Idaho,CDP,39.1551,-117.7335,216,151942,63909,107882,1.3,Pacific/Los_Angeles
+726,Port Adam,Netherlands,DE,Delaware,Town,25.0506,-91.4207,500,147959,48729,25931,0.38,Mountain/Denver
+727,Lake Christine,Thailand,CA,California,CDP,35.5651,-95.5225,793,135605,44680,23157,3.88,Central/Chicago
+728,Curtisland,Central African Republic,KY,Kentucky,Town,31.2336,-117.3039,493,465887,196808,83663,3.88,Mountain/Denver
+729,Lake Hannahburgh,Tokelau,IN,Indiana,Hamlet,30.9035,-76.7458,324,171574,78595,144066,4.65,Pacific/Los_Angeles
+730,Port Sheenaburgh,Guam,NJ,New Jersey,City,25.4122,-106.6914,546,470632,207350,139938,4.69,Central/Chicago
+731,Thomasmouth,Uzbekistan,AR,Arkansas,CDP,39.5979,-123.5874,958,156923,70294,63631,1.93,Eastern/New_York
+732,Kristentown,Cook Islands,AR,Arkansas,Town,42.6831,-86.0432,685,134914,42134,108113,0.64,Pacific/Los_Angeles
+733,South Robertshire,Samoa,CA,California,City,44.3403,-120.6957,579,340633,169393,70328,3.94,Eastern/New_York
+734,Westland,Reunion,NM,New Mexico,Village,40.175,-73.4112,736,215822,103877,147242,1.21,Central/Chicago
+735,Alyssachester,Zambia,VT,Vermont,Village,28.6637,-117.3544,505,489520,218581,30453,1.43,Mountain/Denver
+736,East Jacobshire,Qatar,LA,Louisiana,Hamlet,27.8143,-115.2316,966,145728,69789,77022,0.33,Pacific/Los_Angeles
+737,Edwardshire,Belarus,GA,Georgia,CDP,44.4936,-98.4121,703,437586,140380,116667,4.88,Eastern/New_York
+738,East Samuelburgh,Aruba,NY,New York,Town,46.7948,-72.0135,430,101933,33930,145522,2.88,Mountain/Denver
+739,South Michael,Timor-Leste,ND,North Dakota,Hamlet,28.4694,-111.7415,752,253282,122122,47744,2.2,Central/Chicago
+740,Teresahaven,Lebanon,IN,Indiana,City,25.1998,-97.8213,545,259005,98655,89777,3.78,Pacific/Los_Angeles
+741,Lovefurt,Andorra,MN,Minnesota,CDP,36.0828,-82.7765,602,97409,30590,106370,4.13,Central/Chicago
+742,Lake Brian,Saint Pierre and Miquelon,DC,District of Columbia,City,36.3953,-102.8813,338,452157,213430,56311,2.18,Central/Chicago
+743,West Rebecca,Cape Verde,CA,California,Town,35.1384,-118.3601,996,152755,51778,28416,3.46,Eastern/New_York
+744,North Daniellechester,South Georgia and the South Sandwich Islands,WA,Washington,Town,26.4876,-94.0858,765,175624,79098,100863,4.97,Pacific/Los_Angeles
+745,Baxterland,Ukraine,NY,New York,CDP,35.4096,-90.1268,769,464194,194502,119251,3.3,Mountain/Denver
+746,Meaganmouth,Russian Federation,SC,South Carolina,City,26.7252,-86.8627,452,371742,112011,130919,3.35,Eastern/New_York
+747,North Shelby,Hungary,VT,Vermont,City,31.5105,-104.7227,314,411792,176416,132301,4,Eastern/New_York
+748,New Anthonytown,Switzerland,AZ,Arizona,City,40.6628,-102.0438,265,247319,116805,26066,3.18,Mountain/Denver
+749,Rebeccaberg,Macao,OK,Oklahoma,City,40.8623,-106.4183,548,66256,22283,108186,1.77,Mountain/Denver
+750,Leonstad,Japan,OK,Oklahoma,Hamlet,31.7353,-108.5304,562,273877,122799,41485,0.95,Pacific/Los_Angeles
+751,Robertchester,Vanuatu,CO,Colorado,Town,29.6083,-106.7034,526,91283,32944,67411,0.17,Eastern/New_York
+752,Port Danamouth,Mexico,MO,Missouri,Hamlet,29.1436,-113.676,842,283441,100472,68692,1.71,Central/Chicago
+753,Fitzgeraldmouth,Somalia,NC,North Carolina,Town,42.6121,-106.6478,907,110612,46057,112511,2.97,Mountain/Denver
+754,South Dennisborough,New Zealand,MN,Minnesota,Town,42.5723,-90.9425,802,389654,169966,134484,4.66,Eastern/New_York
+755,Lake Danielle,Saint Barthelemy,AZ,Arizona,Hamlet,30.4647,-75.503,433,422600,159262,68633,1.88,Eastern/New_York
+756,East Haleyton,Thailand,WY,Wyoming,Village,28.7706,-89.8005,960,143334,51917,88969,4.9,Eastern/New_York
+757,Port Cameron,Georgia,OH,Ohio,CDP,28.4596,-120.9926,477,356908,120676,72277,3.76,Pacific/Los_Angeles
+758,Vanessaport,Bulgaria,OK,Oklahoma,Hamlet,34.3659,-121.9742,234,473811,173277,123744,3.77,Eastern/New_York
+759,South Shannon,Bahrain,MS,Mississippi,Hamlet,36.1408,-110.2152,296,11052,5260,37653,1.2,Central/Chicago
+760,Port Dalefurt,Ecuador,AR,Arkansas,Hamlet,38.2726,-97.5468,435,446279,138056,119077,4.38,Central/Chicago
+761,Hawkinsland,El Salvador,AZ,Arizona,Town,31.1824,-123.9197,392,389723,132890,37753,4.12,Pacific/Los_Angeles
+762,West Kristenstad,Turkmenistan,IA,Iowa,CDP,35.1983,-78.0892,709,138559,65687,148404,2.83,Eastern/New_York
+763,West Michael,Christmas Island,WV,West Virginia,CDP,42.35,-120.6041,243,273976,124562,63257,0.56,Pacific/Los_Angeles
+764,Fergusonview,Aruba,MN,Minnesota,Village,28.9312,-67.8557,953,478104,204439,74781,2.93,Central/Chicago
+765,Angelaburgh,Venezuela,NJ,New Jersey,Town,36.0365,-68.7667,750,395080,128621,68756,4.56,Mountain/Denver
+766,Gonzalestown,Argentina,OR,Oregon,CDP,29.673,-118.627,533,60168,29586,129173,3.73,Pacific/Los_Angeles
+767,New Georgeborough,Azerbaijan,ND,North Dakota,City,40.2715,-84.171,994,43853,18247,21848,0.78,Central/Chicago
+768,Lake Erinside,Timor-Leste,ME,Maine,CDP,42.4262,-114.7344,668,88104,28463,120563,4.79,Mountain/Denver
+769,Meganview,Belarus,NJ,New Jersey,Village,38.4716,-69.7629,766,93516,40209,128754,3.8,Mountain/Denver
+770,Jonesfort,Greece,WV,West Virginia,City,29.5658,-120.8854,426,117851,40698,121006,0.66,Eastern/New_York
+771,Benjaminhaven,Vietnam,MA,Massachusetts,Hamlet,29.8573,-81.6898,921,454288,137823,20085,0.44,Pacific/Los_Angeles
+772,Nicholasfurt,Angola,NC,North Carolina,City,30.7813,-73.229,947,437595,164138,26912,4.2,Pacific/Los_Angeles
+773,Port Timothy,Slovakia (Slovak Republic),MI,Michigan,City,36.599,-110.2926,251,32314,11474,90846,3.46,Eastern/New_York
+774,Robertsport,United States Virgin Islands,AZ,Arizona,Village,38.7924,-115.5711,218,33452,11925,140961,4.45,Pacific/Los_Angeles
+775,Herringside,Ethiopia,MD,Maryland,Hamlet,46.5921,-93.8859,872,37452,15336,91527,2.67,Pacific/Los_Angeles
+776,Tammyland,Zimbabwe,MI,Michigan,City,39.5295,-88.1289,462,98975,37202,128417,2.18,Eastern/New_York
+777,West Briana,United States Virgin Islands,ME,Maine,CDP,46.6912,-94.783,911,282310,108439,142801,0.78,Eastern/New_York
+778,West Bethany,France,DC,District of Columbia,Town,38.4949,-98.966,672,366766,162222,112016,3.46,Central/Chicago
+779,North Bobby,Sudan,MT,Montana,Town,30.4597,-110.177,212,453769,155309,72560,0.95,Central/Chicago
+780,East Crystalborough,Romania,MO,Missouri,Hamlet,31.4847,-90.7278,392,27217,12240,65691,3.76,Eastern/New_York
+781,Williamport,Mongolia,HI,Hawaii,Village,37.446,-122.503,834,295720,136705,37432,2.05,Pacific/Los_Angeles
+782,North Rogerburgh,Anguilla,NC,North Carolina,CDP,28.1316,-77.8111,568,474997,146725,84476,2.26,Mountain/Denver
+783,Monroechester,Liechtenstein,ND,North Dakota,Town,38.4481,-84.8467,303,314332,114747,76948,0.85,Pacific/Los_Angeles
+784,Jonathanfurt,Saint Barthelemy,IN,Indiana,Hamlet,43.4094,-118.2802,629,406408,172946,126253,3.05,Central/Chicago
+785,Andrewton,Saint Helena,LA,Louisiana,Town,32.3944,-118.1479,916,261088,113672,30627,2.03,Central/Chicago
+786,Holmesside,Montserrat,VA,Virginia,City,38.3968,-99.32,864,5045,2229,125934,3.9,Central/Chicago
+787,Lake Timothy,Comoros,OH,Ohio,Village,45.3476,-88.8154,214,80495,38710,65151,2.87,Central/Chicago
+788,East Adamshire,Paraguay,NM,New Mexico,CDP,35.9848,-123.6476,298,432070,136387,26039,0.73,Central/Chicago
+789,Whitakerborough,Montenegro,MT,Montana,Village,36.0339,-101.3786,455,280893,110506,89937,3.29,Mountain/Denver
+790,Jasonland,Norfolk Island,ME,Maine,CDP,30.1983,-95.5189,217,132762,42400,108571,2.07,Pacific/Los_Angeles
+791,Robbinston,Equatorial Guinea,GA,Georgia,Hamlet,45.0486,-94.4272,866,137152,52867,100081,1.04,Eastern/New_York
+792,North Kevinside,Eritrea,MA,Massachusetts,CDP,36.4572,-95.4777,643,59194,23596,137578,3.98,Eastern/New_York
+793,Port Matthewport,Benin,TX,Texas,Town,41.4805,-99.7284,683,422205,188991,71187,1.45,Central/Chicago
+794,Dixonfurt,Mayotte,WY,Wyoming,Town,44.7737,-124.1706,454,209442,79088,133990,2.2,Mountain/Denver
+795,Josephton,Vietnam,PR,Puerto Rico,City,42.9857,-107.0184,996,278612,130282,56515,0.87,Mountain/Denver
+796,Charlesmouth,Lao People's Democratic Republic,AL,Alabama,Village,30.4493,-86.7283,617,259015,129369,47254,4.97,Pacific/Los_Angeles
+797,New Tara,Mozambique,WV,West Virginia,City,47.1328,-98.9142,562,496447,208935,48308,2.39,Pacific/Los_Angeles
+798,South Jordanshire,Singapore,NV,Nevada,Town,41.6731,-111.6159,744,292693,108685,57695,4.48,Central/Chicago
+799,West Williambury,Tunisia,IA,Iowa,Hamlet,41.3354,-112.0115,662,197929,64992,77644,4.42,Eastern/New_York
+800,North Victoria,Romania,AZ,Arizona,City,35.4053,-103.744,283,140749,42835,86734,1.29,Mountain/Denver
+801,South Lisa,Norfolk Island,FL,Florida,City,32.1714,-70.8922,445,415494,164203,29714,1.13,Mountain/Denver
+802,South Lisatown,Puerto Rico,AZ,Arizona,CDP,31.5921,-80.7602,460,12614,5696,134989,3.28,Eastern/New_York
+803,Jacobborough,Saint Pierre and Miquelon,OR,Oregon,Town,32.8233,-86.4078,942,455406,186525,60093,3.64,Eastern/New_York
+804,South Timothystad,Seychelles,LA,Louisiana,CDP,41.8907,-120.0854,711,400342,131716,30983,0.77,Mountain/Denver
+805,Lake Zacharymouth,Venezuela,SC,South Carolina,CDP,43.815,-100.1828,702,150148,67874,70354,3.85,Pacific/Los_Angeles
+806,Port Angelaside,Dominica,HI,Hawaii,CDP,39.7152,-90.5815,527,453086,162384,147615,1.77,Pacific/Los_Angeles
+807,Lake Sean,Lao People's Democratic Republic,NM,New Mexico,CDP,37.5898,-100.9412,613,64153,21438,143370,3.2,Eastern/New_York
+808,Ashleystad,Bahamas,NM,New Mexico,Hamlet,40.0979,-104.403,281,390954,178621,84390,0.9,Pacific/Los_Angeles
+809,Fergusonstad,Moldova,PR,Puerto Rico,Village,34.0031,-100.3033,267,19221,8835,89263,3.45,Pacific/Los_Angeles
+810,Stephenland,Tanzania,IL,Illinois,City,43.5328,-69.6572,894,136538,44529,39555,4.47,Eastern/New_York
+811,Jonesburgh,Libyan Arab Jamahiriya,GA,Georgia,Town,47.7425,-81.1739,948,119031,46730,32591,1.99,Pacific/Los_Angeles
+812,Deleonland,Nicaragua,KY,Kentucky,Town,25.9721,-99.1103,441,421731,176394,23021,3.81,Central/Chicago
+813,Gonzalesburgh,Sri Lanka,CO,Colorado,Village,33.3143,-67.2351,782,466404,200079,26323,2.84,Central/Chicago
+814,Cynthiafort,Ecuador,DE,Delaware,Town,42.6566,-73.0483,532,86503,36003,86283,2.62,Central/Chicago
+815,Josephfurt,Estonia,HI,Hawaii,Hamlet,27.8654,-79.1217,465,474804,172800,107161,2.47,Eastern/New_York
+816,Aguilarview,Jamaica,TX,Texas,City,44.3687,-97.3031,923,359562,155989,75163,1.13,Pacific/Los_Angeles
+817,North Melissa,Congo,SC,South Carolina,CDP,34.3021,-84.5613,854,372875,118927,60341,3.39,Mountain/Denver
+818,West Erik,Bahrain,MS,Mississippi,City,44.7283,-86.9921,934,175055,67839,38768,2.73,Mountain/Denver
+819,Lake Williamtown,Greece,KS,Kansas,Town,43.7314,-110.7676,557,481835,218555,117922,3.03,Pacific/Los_Angeles
+820,West Don,Eritrea,AZ,Arizona,City,44.6475,-98.2581,344,125606,37731,61533,3.84,Pacific/Los_Angeles
+821,South Traciside,Sierra Leone,DE,Delaware,Town,27.9694,-97.6312,875,206680,93793,105674,3,Pacific/Los_Angeles
+822,Lake Jason,Falkland Islands (Malvinas),CT,Connecticut,Hamlet,37.8544,-115.6849,872,469401,201297,77250,3.92,Central/Chicago
+823,Larryfort,Mongolia,IN,Indiana,Hamlet,38.1611,-120.9444,247,166413,64233,107283,1.83,Eastern/New_York
+824,New Justinberg,Northern Mariana Islands,WV,West Virginia,City,46.7936,-118.7111,752,414494,141185,129370,3.97,Mountain/Denver
+825,East Grantburgh,Estonia,MI,Michigan,Village,47.5207,-124.8682,777,351438,136559,66121,0.75,Pacific/Los_Angeles
+826,Kimland,Gabon,AK,Alaska,Hamlet,45.4557,-117.8301,758,395252,147401,118581,2.37,Pacific/Los_Angeles
+827,Thompsonstad,Seychelles,CO,Colorado,Village,29.9538,-99.6057,609,456613,149452,83264,3.68,Eastern/New_York
+828,West Oscarbury,Malaysia,VA,Virginia,CDP,44.7444,-100.8,871,385859,141498,118246,2.48,Mountain/Denver
+829,Port Cindy,United States of America,MT,Montana,CDP,38.6695,-91.4949,637,424324,153313,28915,1.79,Mountain/Denver
+830,Sharpville,Belarus,WI,Wisconsin,City,40.9094,-122.5667,785,338007,149590,148587,4.21,Pacific/Los_Angeles
+831,North Leslie,Gibraltar,WA,Washington,Hamlet,31.8097,-103.2173,699,225241,87962,133297,2.65,Eastern/New_York
+832,West Charles,United Arab Emirates,WY,Wyoming,Town,37.9945,-105.9562,702,498293,245912,56359,3.04,Central/Chicago
+833,Ricardoton,Uruguay,SC,South Carolina,City,35.9683,-82.889,249,6469,2493,77795,0.6,Pacific/Los_Angeles
+834,Williamchester,Solomon Islands,MT,Montana,CDP,35.3111,-93.1316,705,316125,137649,111740,3.64,Mountain/Denver
+835,Daleville,Bolivia,IL,Illinois,Village,31.8046,-95.1027,315,63623,23798,90408,4.78,Pacific/Los_Angeles
+836,Port Tiffany,Vanuatu,RI,Rhode Island,Village,35.8511,-75.4247,884,367815,154517,91916,4.34,Mountain/Denver
+837,Jonestown,Guadeloupe,AK,Alaska,Town,30.3835,-121.4557,622,57576,22468,41340,1.44,Eastern/New_York
+838,North Matthew,Jamaica,PR,Puerto Rico,Village,27.6795,-85.0712,992,95984,30509,34119,3.48,Eastern/New_York
+839,North Robert,Mongolia,CT,Connecticut,Town,37.2436,-114.5756,888,403207,141704,114156,3.23,Eastern/New_York
+840,West Vincentside,Myanmar,AR,Arkansas,CDP,43.2175,-85.7163,293,392772,193569,78237,1.2,Pacific/Los_Angeles
+841,Montgomerytown,Micronesia,CO,Colorado,CDP,34.8784,-84.3972,351,487960,169824,143632,4.92,Pacific/Los_Angeles
+842,West Douglas,French Guiana,PA,Pennsylvania,CDP,45.1343,-103.6788,598,171371,67200,27421,3.31,Mountain/Denver
+843,Joshuahaven,Vanuatu,NJ,New Jersey,CDP,25.129,-110.9628,810,460814,168636,136274,3.56,Mountain/Denver
+844,North Walterton,Pakistan,VA,Virginia,Village,41.0086,-112.9929,380,375175,118487,29821,1.56,Eastern/New_York
+845,Port Amandaville,Mayotte,HI,Hawaii,Village,25.6934,-117.4211,850,19614,6731,111134,3.4,Pacific/Los_Angeles
+846,Jenniferberg,Bermuda,AZ,Arizona,Village,35.2581,-93.6091,344,212514,66456,46030,2.44,Mountain/Denver
+847,North Maria,Kenya,MI,Michigan,Town,38.4063,-110.6804,805,154381,59545,49138,4.16,Central/Chicago
+848,Hughestown,Christmas Island,SD,South Dakota,CDP,37.8332,-91.666,921,31882,11838,47527,4.88,Eastern/New_York
+849,Johnstad,Bolivia,KY,Kentucky,CDP,34.2516,-121.753,333,172178,59102,66232,3.67,Eastern/New_York
+850,Lake Kara,Palestinian Territory,TN,Tennessee,CDP,31.7489,-101.0438,536,197429,83412,102386,1.54,Central/Chicago
+851,New Michael,Hong Kong,NC,North Carolina,Hamlet,27.0942,-79.7575,844,66683,30410,109322,3.17,Mountain/Denver
+852,Davidport,Serbia,HI,Hawaii,Hamlet,31.2141,-103.805,764,314351,130007,61695,3.02,Pacific/Los_Angeles
+853,Frederickport,Greenland,UT,Utah,Village,40.8552,-123.7081,580,250687,100006,57385,3.55,Eastern/New_York
+854,West Alicia,Norfolk Island,AR,Arkansas,CDP,34.4603,-70.7658,503,482532,151448,62451,1.17,Pacific/Los_Angeles
+855,Lake Jeffery,Antarctica (the territory South of 60 deg S),DC,District of Columbia,Town,37.1402,-105.9316,214,102881,38145,46977,1.14,Central/Chicago
+856,Steeleborough,Equatorial Guinea,NH,New Hampshire,Town,40.4548,-124.1097,344,344547,109695,30968,0.43,Eastern/New_York
+857,Figueroaland,South Georgia and the South Sandwich Islands,MD,Maryland,CDP,35.9777,-72.6855,941,81654,34925,61950,1.66,Mountain/Denver
+858,New Bobport,United States Virgin Islands,UT,Utah,Town,48.8651,-83.6721,721,481764,166494,63079,3.29,Mountain/Denver
+859,Lake Josephstad,Swaziland,HI,Hawaii,Town,36.8605,-67.5703,334,433056,130182,52785,4.02,Eastern/New_York
+860,Kingville,Barbados,OH,Ohio,Town,46.1329,-95.1877,613,35048,10705,84180,0.85,Eastern/New_York
+861,Deanmouth,China,TN,Tennessee,CDP,46.6981,-90.0449,838,248405,84618,104484,3.77,Central/Chicago
+862,Burnsstad,Canada,ME,Maine,CDP,35.2939,-119.1728,740,289849,87630,31609,1.1,Central/Chicago
+863,West Frank,Japan,VT,Vermont,Hamlet,36.8838,-107.7976,307,233411,84155,39833,4.17,Pacific/Los_Angeles
+864,North Alyssamouth,Reunion,NH,New Hampshire,City,40.2002,-102.8297,772,311369,111508,50450,0.84,Central/Chicago
+865,Port Denisefurt,South Georgia and the South Sandwich Islands,SD,South Dakota,Town,27.8569,-71.161,367,206562,84903,85284,4.98,Pacific/Los_Angeles
+866,West Stephanie,Algeria,NM,New Mexico,Hamlet,37.178,-94.9654,849,183017,81244,110376,0.67,Pacific/Los_Angeles
+867,Jessicafurt,Solomon Islands,DC,District of Columbia,Town,25.8341,-111.91,837,385684,151189,134921,0.85,Central/Chicago
+868,North Michael,Yemen,RI,Rhode Island,CDP,40.075,-69.7267,983,344377,104011,21413,2.32,Eastern/New_York
+869,Cainville,Nigeria,MD,Maryland,Town,35.045,-83.6066,582,220458,105175,46116,4.94,Mountain/Denver
+870,Carlbury,Guinea,SD,South Dakota,Hamlet,48.8098,-95.9592,666,67707,20757,139848,1.02,Central/Chicago
+871,Katherineshire,Martinique,NV,Nevada,CDP,37.3669,-103.5478,228,231648,75858,21888,2.35,Mountain/Denver
+872,Shepherdview,Paraguay,AR,Arkansas,Town,33.436,-107.7919,276,406487,128625,129236,2.49,Eastern/New_York
+873,New Jakebury,Christmas Island,IL,Illinois,Village,41.8601,-110.7276,395,346533,126087,123506,1.08,Central/Chicago
+874,Solomonburgh,Nepal,NV,Nevada,CDP,41.0889,-123.8975,922,35487,13867,29958,2.05,Mountain/Denver
+875,North Harold,El Salvador,NY,New York,Village,39.216,-78.9449,223,334631,106189,90287,4.89,Eastern/New_York
+876,Lake John,Iraq,TN,Tennessee,Town,42.7201,-67.3067,452,487891,218705,76368,0.82,Eastern/New_York
+877,Wigginsview,Romania,IA,Iowa,Town,40.1478,-87.331,577,192495,87300,108408,0.2,Pacific/Los_Angeles
+878,Mooreshire,Dominican Republic,NE,Nebraska,City,32.497,-101.466,805,308697,141521,75881,0.6,Central/Chicago
+879,Port Tiffanybury,Hungary,CO,Colorado,Hamlet,31.5921,-115.7449,609,230397,99692,20366,0.91,Mountain/Denver
+880,Fryeside,Madagascar,WV,West Virginia,Town,30.4493,-81.9121,717,376260,118844,127339,3.35,Pacific/Los_Angeles
+881,East Williammouth,Germany,SD,South Dakota,Hamlet,48.2234,-119.4061,423,154641,73246,41401,2.7,Eastern/New_York
+882,Fisherville,Rwanda,OK,Oklahoma,Village,33.9208,-124.1172,926,122105,47635,34671,2.18,Eastern/New_York
+883,Bradleyshire,Gabon,GA,Georgia,Village,46.0991,-121.4565,295,251685,80586,128390,4.52,Pacific/Los_Angeles
+884,Hendersonborough,Brazil,FL,Florida,City,28.8344,-70.4926,213,456259,197376,144670,3.53,Central/Chicago
+885,Tinatown,Qatar,FL,Florida,Hamlet,47.2235,-107.5088,492,12339,3759,138037,1.92,Eastern/New_York
+886,Vegafurt,Micronesia,SC,South Carolina,City,35.166,-80.572,699,292358,134993,76808,4.92,Pacific/Los_Angeles
+887,Lake Brandon,Northern Mariana Islands,WI,Wisconsin,Hamlet,30.9754,-114.1052,953,422569,193099,84545,0.89,Eastern/New_York
+888,Finleyberg,Uzbekistan,SC,South Carolina,Village,34.9707,-85.2588,375,335617,125453,42675,0.99,Pacific/Los_Angeles
+889,New Tricia,Pitcairn Islands,KS,Kansas,Village,40.7894,-71.3964,260,79193,37372,113895,0.28,Mountain/Denver
+890,Washingtonland,Netherlands,FL,Florida,CDP,44.3152,-109.9518,351,62024,19153,40347,3.23,Eastern/New_York
+891,Robertside,Bahrain,ID,Idaho,Town,44.5215,-87.8654,410,325568,142338,137837,1.03,Pacific/Los_Angeles
+892,East Kara,Mali,WI,Wisconsin,Village,31.8236,-76.4062,891,76011,36878,51814,0.81,Central/Chicago
+893,New Michaelmouth,Tokelau,FL,Florida,City,28.9813,-72.4448,631,309419,146870,94519,2.58,Pacific/Los_Angeles
+894,Courtneymouth,Ethiopia,NV,Nevada,City,46.6487,-70.8372,516,303264,151630,123005,2.75,Eastern/New_York
+895,South Aimeetown,Reunion,VA,Virginia,Hamlet,38.2549,-109.04,270,182451,64069,93146,2.49,Central/Chicago
+896,Port Patrick,Saint Helena,WA,Washington,Town,34.3325,-106.2427,978,217734,81596,25791,4.21,Mountain/Denver
+897,West Heatherbury,Haiti,NY,New York,City,27.3552,-111.5127,726,499466,181792,42127,1,Pacific/Los_Angeles
+898,Lake Jacobville,China,AK,Alaska,Village,25.062,-75.522,895,323172,100905,79070,0.28,Mountain/Denver
+899,Lake Deborahfort,South Africa,ME,Maine,CDP,43.1965,-124.5658,938,349436,123932,35085,4.14,Eastern/New_York
+900,Torreschester,Grenada,ND,North Dakota,Town,33.2069,-98.5032,995,217856,81666,136100,0.2,Mountain/Denver
+901,South Williamstad,Timor-Leste,RI,Rhode Island,CDP,33.004,-102.5586,539,495893,200560,112283,2.31,Mountain/Denver
+902,Lake Krystalborough,Serbia,LA,Louisiana,Village,39.9231,-100.4238,838,72662,22268,105811,2.21,Central/Chicago
+903,Micheleburgh,Tonga,NV,Nevada,CDP,36.9324,-79.9476,681,196828,82884,112494,2.91,Eastern/New_York
+904,Port Kirstenland,Reunion,SC,South Carolina,City,43.0166,-86.5991,548,301659,135488,30610,3.58,Mountain/Denver
+905,New Kelly,Bhutan,NV,Nevada,Town,43.1408,-97.6306,262,94894,30563,142135,1.5,Pacific/Los_Angeles
+906,Rebeccaview,Cuba,DE,Delaware,CDP,33.8823,-98.8949,477,405658,201508,146313,1.25,Mountain/Denver
+907,Hernandezview,Saint Pierre and Miquelon,MI,Michigan,CDP,41.0316,-104.5755,254,334585,159198,107210,1.22,Eastern/New_York
+908,Lake Frank,Sao Tome and Principe,CO,Colorado,Town,35.3905,-109.4494,538,453514,216734,38384,2.46,Mountain/Denver
+909,Garzastad,Saudi Arabia,AR,Arkansas,Town,37.6764,-95.6486,771,15812,7506,101583,4.98,Eastern/New_York
+910,Port Ashley,Liberia,AK,Alaska,Village,29.7773,-107.266,648,22989,10599,74532,3.03,Pacific/Los_Angeles
+911,Crossmouth,Niger,TX,Texas,Hamlet,35.2908,-85.7926,345,239192,88892,91140,0.92,Eastern/New_York
+912,West Colinstad,Swaziland,IA,Iowa,Town,32.5368,-83.547,922,258433,102425,80351,4.19,Central/Chicago
+913,Wandaberg,Netherlands Antilles,OK,Oklahoma,Village,38.8188,-97.2969,552,494689,177446,105704,0.68,Eastern/New_York
+914,East Leon,Djibouti,UT,Utah,Hamlet,26.8536,-114.6501,656,166630,68674,133789,4.4,Central/Chicago
+915,Lake Abigail,Nauru,DE,Delaware,Hamlet,48.1765,-87.8305,702,132388,50036,109191,4.17,Mountain/Denver
+916,Patelchester,Nigeria,MA,Massachusetts,Town,32.6292,-100.0777,312,170482,81782,128813,4.75,Mountain/Denver
+917,North Jessica,Guinea,IN,Indiana,Hamlet,33.2054,-92.5182,878,110696,36275,52254,1.35,Central/Chicago
+918,Justinchester,Mozambique,ND,North Dakota,Hamlet,42.155,-117.4173,431,342114,164975,139148,3.96,Pacific/Los_Angeles
+919,South Vincent,Equatorial Guinea,NH,New Hampshire,City,31.1038,-92.7009,575,247939,80889,31062,2.37,Pacific/Los_Angeles
+920,Collinmouth,Ethiopia,DC,District of Columbia,Hamlet,36.6288,-116.6563,916,234496,85998,107256,2.07,Mountain/Denver
+921,Brighthaven,Cuba,NM,New Mexico,Hamlet,44.7071,-100.6769,478,267917,127712,87545,2.62,Mountain/Denver
+922,Markport,Romania,MT,Montana,Hamlet,30.9319,-79.9385,692,109852,33225,142387,4.88,Pacific/Los_Angeles
+923,Serranoborough,Cyprus,AZ,Arizona,Village,27.3126,-74.8091,395,65707,25765,123391,4.26,Pacific/Los_Angeles
+924,East Kathryn,Ghana,AL,Alabama,City,43.8773,-92.327,436,211233,92226,59328,2.01,Eastern/New_York
+925,West Charles,Turkey,CT,Connecticut,CDP,25.1369,-116.5803,852,335695,126972,24583,0.72,Eastern/New_York
+926,Jeremyberg,Malaysia,NC,North Carolina,City,33.0474,-104.5411,466,476917,148462,55379,4.82,Eastern/New_York
+927,Lake Cynthiaport,Mali,WY,Wyoming,CDP,48.0638,-98.0953,972,222393,104571,79256,4.62,Central/Chicago
+928,Teresaland,Turks and Caicos Islands,CO,Colorado,Town,41.1254,-70.4177,225,200930,88062,55632,4.65,Mountain/Denver
+929,Mooreton,Gambia,OR,Oregon,Village,33.4748,-70.658,540,257239,118942,75831,4.37,Eastern/New_York
+930,Lake Matthewburgh,Taiwan,ND,North Dakota,Town,29.0953,-77.1317,214,161316,61911,132361,3.69,Mountain/Denver
+931,East Josefort,Puerto Rico,LA,Louisiana,Village,35.4761,-69.2013,670,237430,83486,63460,0.33,Central/Chicago
+932,Lake Lisabury,Singapore,VT,Vermont,City,33.6479,-89.4386,384,461448,197767,139338,4.78,Eastern/New_York
+933,New William,South Africa,OR,Oregon,Village,30.4853,-89.4106,424,385688,169090,35455,1.19,Eastern/New_York
+934,Christinahaven,Comoros,TX,Texas,CDP,40.3159,-104.9681,336,268856,85653,40242,1.65,Pacific/Los_Angeles
+935,East Elizabethhaven,Svalbard & Jan Mayen Islands,SC,South Carolina,Village,45.4005,-73.2992,338,145375,68349,24459,1.87,Central/Chicago
+936,Ianland,Korea,CO,Colorado,Hamlet,36.9933,-84.0778,689,159100,54597,118756,0.37,Central/Chicago
+937,Lanehaven,Turkmenistan,AK,Alaska,Town,37.7435,-95.72,451,73678,34261,40806,3.92,Eastern/New_York
+938,Hollandville,Senegal,OR,Oregon,CDP,32.269,-121.3481,956,385954,172532,28258,4.62,Mountain/Denver
+939,South Christian,British Indian Ocean Territory (Chagos Archipelago),OK,Oklahoma,Village,44.6782,-106.7176,790,380045,118842,74921,1.83,Mountain/Denver
+940,Lake Ryanstad,Korea,PA,Pennsylvania,Village,29.054,-102.8892,827,477269,153593,148950,1.17,Pacific/Los_Angeles
+941,Port Curtis,Congo,NC,North Carolina,CDP,34.2145,-117.7183,899,196904,92344,78236,4.62,Pacific/Los_Angeles
+942,Lake Markbury,Algeria,KS,Kansas,City,38.4018,-118.4713,956,183559,68328,95566,0.65,Mountain/Denver
+943,Robertchester,Western Sahara,NH,New Hampshire,Village,25.0202,-86.7784,247,135395,64394,65385,1.85,Eastern/New_York
+944,Benjaminbury,Bahrain,IN,Indiana,Hamlet,26.5604,-89.3225,629,143121,61972,33303,3.96,Central/Chicago
+945,Port Steven,Brunei Darussalam,NV,Nevada,Town,32.426,-104.329,920,463986,148278,30906,2.17,Central/Chicago
+946,Abbotthaven,Eritrea,NV,Nevada,City,35.2241,-71.6608,591,447963,213197,123333,3.61,Pacific/Los_Angeles
+947,Alexisland,Thailand,GA,Georgia,Town,30.74,-68.6815,625,210351,105120,117802,0.18,Mountain/Denver
+948,Campbellchester,Cayman Islands,IL,Illinois,Hamlet,47.3843,-78.4614,961,430646,194054,35730,3.85,Central/Chicago
+949,Meghanfort,Tonga,MA,Massachusetts,CDP,34.9995,-112.4941,831,45173,18941,142581,4.02,Central/Chicago
+950,New Kristentown,Lesotho,ME,Maine,Village,25.6742,-113.4166,228,287530,104656,62082,2.41,Central/Chicago
+951,Thomaschester,Heard Island and McDonald Islands,IL,Illinois,CDP,43.2334,-96.4225,449,214035,79313,90518,4.47,Eastern/New_York
+952,Ericfurt,Monaco,VA,Virginia,Hamlet,32.2296,-105.2759,723,194402,61449,20927,0.52,Eastern/New_York
+953,Bassfort,British Indian Ocean Territory (Chagos Archipelago),OK,Oklahoma,City,29.79,-90.4736,247,322078,127713,112655,0.26,Mountain/Denver
+954,South Williamtown,Jordan,IN,Indiana,Town,27.5973,-93.4339,716,393629,136309,65514,2.1,Eastern/New_York
+955,Stephensview,Tuvalu,MD,Maryland,Hamlet,32.0547,-67.2776,279,494060,225745,50101,1.03,Mountain/Denver
+956,East Paulafort,Guatemala,KS,Kansas,CDP,47.2133,-79.6868,966,430552,181829,112128,1.87,Pacific/Los_Angeles
+957,North Annamouth,Puerto Rico,NV,Nevada,Village,43.1965,-68.2517,602,99324,29839,103435,2.68,Mountain/Denver
+958,New Anna,Spain,MN,Minnesota,CDP,30.6433,-96.1422,284,133128,51388,135095,0.1,Pacific/Los_Angeles
+959,Wilkersonborough,Honduras,LA,Louisiana,Village,28.2108,-93.1179,333,474526,215872,20381,0.35,Pacific/Los_Angeles
+960,Jessefort,Somalia,DE,Delaware,CDP,41.6231,-88.2048,943,84470,37044,28162,4.17,Eastern/New_York
+961,Port Tammiemouth,Congo,VA,Virginia,Town,48.5884,-122.9288,704,324366,161725,112073,0.47,Pacific/Los_Angeles
+962,West Karen,Greenland,IA,Iowa,Village,30.4374,-90.9455,654,476531,228981,105570,1.8,Pacific/Los_Angeles
+963,West Jeanberg,Georgia,ID,Idaho,CDP,30.3476,-105.3334,427,421653,134114,86295,4.15,Central/Chicago
+964,North Jackborough,Jersey,SD,South Dakota,Town,48.4642,-86.6684,453,392051,144549,100960,1.09,Central/Chicago
+965,West Johnchester,Rwanda,UT,Utah,Village,37.9363,-114.6021,516,282554,124905,52679,0.3,Pacific/Los_Angeles
+966,Victorland,Turks and Caicos Islands,AR,Arkansas,City,36.6691,-95.2287,244,462040,198475,87293,2.93,Central/Chicago
+967,Rasmussenside,Ecuador,MN,Minnesota,Village,35.7475,-119.2807,362,149387,50122,22167,0.6,Central/Chicago
+968,North Garystad,French Southern Territories,WV,West Virginia,CDP,34.9263,-68.0713,959,123593,57342,95314,3,Pacific/Los_Angeles
+969,Adamstad,Belize,PR,Puerto Rico,Hamlet,34.4158,-109.435,571,461053,189922,81202,3.68,Pacific/Los_Angeles
+970,Edwardston,Russian Federation,CT,Connecticut,City,30.9516,-87.3513,707,266092,116090,36710,4.72,Mountain/Denver
+971,Middletonburgh,Marshall Islands,MT,Montana,Town,40.2638,-72.8868,335,78469,25164,77566,3.98,Pacific/Los_Angeles
+972,Port John,Oman,MN,Minnesota,Village,25.4489,-115.1855,494,354710,114554,46480,2.72,Eastern/New_York
+973,West Elizabeth,Poland,AL,Alabama,Village,38.7575,-81.2733,384,213895,73249,61041,2.35,Eastern/New_York
+974,Markmouth,Poland,IA,Iowa,Hamlet,36.5005,-120.3773,420,93831,29742,88411,4.71,Mountain/Denver
+975,Port Sarah,Tanzania,AK,Alaska,City,31.3651,-67.284,565,77610,26639,56232,1.75,Eastern/New_York
+976,West Adam,Azerbaijan,LA,Louisiana,CDP,30.879,-109.5875,425,346341,125488,112096,3.96,Eastern/New_York
+977,Collinsstad,Sierra Leone,TX,Texas,Hamlet,46.7364,-73.1331,273,46240,21216,88750,1.97,Eastern/New_York
+978,Thompsonmouth,Dominican Republic,DC,District of Columbia,CDP,38.2705,-88.5482,301,95319,32926,40215,2.51,Pacific/Los_Angeles
+979,Martinside,Grenada,ME,Maine,Town,37.4563,-106.5506,383,178289,62515,58901,3.74,Mountain/Denver
+980,Austinburgh,Tonga,IA,Iowa,Town,39.9932,-90.9645,965,21035,8828,110633,0.79,Pacific/Los_Angeles
+981,North Christine,Ghana,WY,Wyoming,CDP,45.5714,-87.671,520,418271,144223,126965,3.66,Mountain/Denver
+982,Lake Laura,Guam,KY,Kentucky,Hamlet,45.3506,-121.6618,689,279135,133115,127711,2.06,Pacific/Los_Angeles
+983,Mcintoshton,Belgium,AK,Alaska,Hamlet,27.6415,-69.0338,513,77886,26713,47525,3.53,Mountain/Denver
+984,Lake Barbara,Guadeloupe,VA,Virginia,Village,38.1739,-123.7939,972,119684,38125,48039,2.22,Eastern/New_York
+985,Scottburgh,Heard Island and McDonald Islands,MD,Maryland,Village,41.5558,-120.611,945,318090,99830,108578,4.16,Central/Chicago
+986,Duncanview,Croatia,RI,Rhode Island,Hamlet,40.6903,-117.5327,577,280834,84847,29299,0.74,Central/Chicago
+987,Wilsonchester,Palestinian Territory,KS,Kansas,Hamlet,30.4494,-99.2638,511,98485,38245,22337,4.49,Eastern/New_York
+988,Adrianaville,India,OH,Ohio,Town,31.0191,-72.3957,719,360451,138102,52760,2.28,Mountain/Denver
+989,East Elizabeth,Aruba,DC,District of Columbia,City,41.6495,-101.9147,681,161732,68216,74617,2.83,Eastern/New_York
+990,East Beverlyhaven,Cameroon,SC,South Carolina,Town,43.5442,-105.1911,399,180541,66685,46046,4.54,Eastern/New_York
+991,New Autumnmouth,Cape Verde,VA,Virginia,Hamlet,40.2822,-67.9804,572,244923,76094,27806,2.46,Central/Chicago
+992,Sanchezburgh,Albania,WY,Wyoming,City,39.0897,-74.6617,254,55673,25875,23358,2.55,Pacific/Los_Angeles
+993,Jimmyside,Madagascar,MT,Montana,Village,38.2486,-77.1496,471,42413,19070,120904,0.83,Central/Chicago
+994,North Brett,Syrian Arab Republic,AK,Alaska,Village,28.4242,-85.9042,703,170647,70888,147674,3.75,Central/Chicago
+995,Port Dawnmouth,Norway,AZ,Arizona,Village,33.0639,-101.8785,993,470499,232818,28827,3.1,Pacific/Los_Angeles
+996,Davidside,Bouvet Island (Bouvetoya),IL,Illinois,City,30.3479,-86.7683,982,416406,137941,110756,2.74,Pacific/Los_Angeles
+997,West Justin,Latvia,LA,Louisiana,Town,28.115,-89.9026,889,218368,90521,126047,3.88,Eastern/New_York
+998,Youngstad,Macao,OR,Oregon,Town,27.3271,-76.0463,761,358887,115172,81769,3.2,Central/Chicago
+999,Lake Larryview,Botswana,DC,District of Columbia,Village,29.3327,-89.7609,559,70737,31812,129186,4.08,Central/Chicago
+1000,Erikbury,Christmas Island,RI,Rhode Island,Hamlet,31.4909,-117.6475,944,469537,209018,142540,1.55,Eastern/New_York
