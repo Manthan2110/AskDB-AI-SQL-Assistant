@@ -17,10 +17,12 @@ AskDB eliminates the need to know SQL syntax. Simply type your question (e.g., *
 ## 🌐 Interface Preview  
 
 ### Dashboard (Light Mode)
-*(Add screenshots here once ready)*
+<img width="1912" height="1011" alt="image" src="https://github.com/user-attachments/assets/916d1deb-272d-4c7e-b213-dc19b5c67220" />
+
 
 ### Dark Mode Analytics
-(Add screenshot here)
+<img width="1915" height="1015" alt="image" src="https://github.com/user-attachments/assets/6d3015ec-2815-4588-bfff-374c14c3e814" />
+
 
 ---
 
