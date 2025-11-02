@@ -1,0 +1,26 @@
+# Requirements for Text-to-SQL AI Assistant Flask Application
+
+# Core Flask dependencies
+Flask==3.0.0
+flask-cors==4.0.0
+
+# LangChain and AI dependencies 
+langchain==0.1.0
+langchain-google-genai==1.0.1
+langchain-core==0.1.7
+langchain-community==0.0.13
+
+# Database connectivity
+pymysql==1.1.0
+sqlalchemy==2.0.23
+
+# Additional utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# For enhanced features
+pandas==2.1.4
+numpy==1.24.4
+
+# Development dependencies
+python-dotenv==1.0.0
